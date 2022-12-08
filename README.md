@@ -25,11 +25,4 @@ TeX Live более предпочтителен. Во время установ
 Также добавьте [преамбулы]() в папку с проектом, иначе проект не соберется.
 
 Note: Для корректной работы подсветки синтаксиса можете использовать наш модифицированный [англо-русский словарь](https://github.com/pluttan/BMSTU-1/dictionaries/russian_english_texstudio.zip), для этого скачайте его и поместите в папку *.../texstudio/dictionaries*, перезапустите texstudio.
-  --># BMSTU1
-# BMSTU-1
-# BMSTU-1 root@95-163-235-193
-# BMSTU-1
-# BMSTU-1
-# BMSTU-1
-# BMSTU-1
-# BMSTU-1
+  -->
