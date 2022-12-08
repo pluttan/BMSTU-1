@@ -1,0 +1,34 @@
+INFO:  latexindent.pl version 3.19, 2022-10-30, a script to indent .tex files
+       latexindent.pl lives here: /Users/pluttan/opt/anaconda3/bin/
+       Mon Nov 28 13:45:33 2022
+       Filename: /Users/pluttan/Desktop/_Ð¡ÐµÐ¼1/BMSTU-1/ÐÐ/ÐÐ¾Ð´Ð³Ð¾ÑÐ¾Ð²ÐºÐ° Ðº ÑÐºÐ·Ð°Ð¼ÐµÐ½Ñ/examOP.tex
+INFO:  Processing switches:
+       -s|--silent: Silent mode active (you have used either -s or --silent)
+INFO:  Directory for backup files and indent.log:
+       /Users/pluttan/Desktop/_Ð¡ÐµÐ¼1/BMSTU-1/ÐÐ/ÐÐ¾Ð´Ð³Ð¾ÑÐ¾Ð²ÐºÐ° Ðº ÑÐºÐ·Ð°Ð¼ÐµÐ½Ñ
+INFO:  Perl modules are being loaded from the following directories:
+       /Users/pluttan/opt/anaconda3/lib/perl5/core_perl/FindBin.pm
+       /Users/pluttan/opt/anaconda3/lib/perl5/vendor_perl/YAML/Tiny.pm
+       /Users/pluttan/opt/anaconda3/lib/perl5/core_perl/File/Copy.pm
+       /Users/pluttan/opt/anaconda3/lib/perl5/core_perl/File/Basename.pm
+       /Users/pluttan/opt/anaconda3/lib/perl5/core_perl/Getopt/Long.pm
+       /Users/pluttan/opt/anaconda3/lib/perl5/vendor_perl/File/HomeDir.pm
+INFO:  LatexIndent perl modules are being loaded from, for example:
+       /Users/pluttan/opt/anaconda3/lib/perl5/vendor_perl/LatexIndent/Document.pm
+INFO:  YAML settings read: defaultSettings.yaml
+       Reading defaultSettings.yaml from /Users/pluttan/opt/anaconda3/bin/defaultSettings.yaml
+       Reading defaultSettings.yaml (2nd attempt) from /Users/pluttan/opt/anaconda3/bin/../../texmf-dist/scripts/latexindent/defaultSettings.yaml
+       and then, if necessary, /Users/pluttan/opt/anaconda3/bin/LatexIndent/defaultSettings.yaml
+INFO:  YAML settings read: indentconfig.yaml or .indentconfig.yaml
+       Home directory is /Users/pluttan (didn't find either indentconfig.yaml or .indentconfig.yaml)
+       To specify user settings you would put indentconfig.yaml here: /Users/pluttan/indentconfig.yaml
+       Alternatively, you can use the hidden file .indentconfig.yaml as: /Users/pluttan/.indentconfig.yaml
+INFO:  Phase 1: searching for objects
+INFO:  Phase 2: finding surrounding indentation
+INFO:  Phase 3: indenting objects
+INFO:  Phase 4: final indentation check
+INFO:  Output routine:
+       Not outputting to file; see -w and -o switches for more options.
+       --------------
+INFO:  Please direct all communication/issues to:
+        https://github.com/cmhughes/latexindent.pl

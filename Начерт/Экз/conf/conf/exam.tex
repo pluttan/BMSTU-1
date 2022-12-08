@@ -1,0 +1,353 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[T2A]{fontenc}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[russian]{babel}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage{wrapfig}
+\usepackage{fancyhdr}
+\usepackage{floatflt}
+\usepackage{python}
+\usepackage{ amssymb }
+\usepackage{indentfirst}
+\usepackage{setspace}
+\usepackage{scrextend}
+\usepackage{listings}
+\usepackage{makecell,tabularx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\newcommand{\rub}{{\rm{Р}\kern-.635em\rule[.5ex]{.52em}{.04em}\kern.11em}}
+
+\definecolor{linkcolor}{HTML}{000000} 
+\definecolor{urlcolor}{HTML}{0000FF} 
+
+\hypersetup{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor, colorlinks=true}
+
+\definecolor{grey}{RGB}{40, 40, 40}
+
+\renewcommand{\href}[1]{\url{#1}}
+
+\lstdefinestyle{CommentStyle}{
+    language=XML,
+    %numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=5pt,
+    commentstyle=\color{red},
+	basicstyle=\footnotesize\ttfamily,
+	language={[ANSI]C++},
+	keywordstyle=\bfseries,
+	showstringspaces=false,
+	morekeywords={include, printf},
+	commentstyle={},
+	escapeinside=§§,
+	escapebegin=\begin{russian}\commentfont,
+	escapeend=\end{russian},
+    keywordstyle=\color{blue}\bfseries,
+    morekeywords={align,begin},
+    extendedchars=\true,
+    tabsize=2
+}
+\lstdefinestyle{myLatexStyle}{
+    language=c++,
+    %backgroundcolor=\color{grey},
+    numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=5pt,
+    commentstyle=\color{red},
+    keywordstyle=\color{blue}\bfseries,
+    morekeywords={align,begin},
+    extendedchars=\true,
+    tabsize=2
+}
+
+\lstdefinestyle{pmyLatexStyle}{
+    language=java,
+    %backgroundcolor=\color{grey},
+    numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=5pt,
+    commentstyle=\color{red},
+    keywordstyle=\color{blue}\bfseries,
+    morekeywords={align,begin},
+    extendedchars=\true,
+    tabsize=2
+}
+
+\setlength{\parindent}{12,5mm}
+
+\newcommand{\logo}{\vcenter{\hbox{\includegraphics[width=.8em]{/Users/pluttan/Documents/bw2.png}}}}
+https://github.com/pluttan/BMSTU-1/blob/master/МатАн/РК1/rk1matan.pdf
+\onehalfspacing
+
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\fancyhf{} 
+\fancyhead[R]{\bfseries\thepage}
+\fancyhead[LO]{$\mathfrak{Copyright}\ \mathfrak{pluttan} \logo$}
+
+\newcommand{\image}[3]{
+	\begin{figure}[ht]
+		\center{\includegraphics[height=#2pt]{img/#1} }
+		\caption{\textit{#3}}\end{figure}
+}
+\usepackage{fontspec}
+\setmainfont{GOST Type BU} 
+
+\begin{document}
+
+\section{Определения}
+    \subsection{Сформулируйте определение окрестности точки $x \in \mathbb{R}$.}
+
+    Окрестностью $U(x_0)$ точки $x_0$ называют любой интервал, содержащий эту точку
+
+    \subsection{Сформулируйте определение $\epsilon$-окрестности точки $x \in \mathbb{R}$. }
+
+    $\epsilon$-окрестностью $U_\epsilon(x_0)$ точки $x_0$ называют интервал с центром в 
+    $x_0$ и длиной $2\epsilon$ т.е. $$U_\epsilon(x_0) = (x_0 - \epsilon, x_0 + \epsilon) = 
+    \{x \in \mathbb{R},  \epsilon>0 : x_0 - \epsilon < x < x_0 + \epsilon\}$$.
+
+    \subsection{Сформулируйте определение окрестности $+\infty$. }
+
+    Окрестностью точки $+\infty$ называют интервал вида $(a, +\infty)$, где $a$ — произвольное действительное число.
+    $$U(+\infty) = \{x \in \mathbb{R}: x > a\}, a > 0$$
+
+    \subsection{Сформулируйте определение окрестности $-\infty$. }
+
+    Окрестностью точки $-\infty$ называют интервал вида $(-\infty, a)$, где $a$ — произвольное действительное число.
+    $$U(-\infty) = \{x \in \mathbb{R}: x < -a\}, a > 0$$
+
+    \subsection{Сформулируйте определение окрестности $\infty$. }
+
+    Окрестностью бесконечности $\infty$ «без знака»  называют объединение двух бесконечных интервалов 
+    $(-\infty, -a) \cup (a, +\infty)$, где a — произвольное действительное число.
+    $$U(\infty) = \{x \in \mathbb{R}: |x| > a\}, a > 0$$
+
+    \subsection{Сформулируйте определение предела последовательности.}
+    
+    Число a называется пределом последовательности $\{x_n\}, n \to +\infty$, если для любого 
+    сколь угодно малого $\epsilon > 0$ существует номер $N = N(\epsilon)$ такой, что 
+    если порядковый номер члена последовательности $n  \geqslant  N$, то имеет место неравенство 
+    $|x_n - a| < \epsilon$. 
+    $$\lim\limits_{n \to \infty} x_n = a \iff \ \forall \epsilon > 0 \  \exists N = N(\epsilon) \in 
+    \mathbb{N} : \forall n > N(\epsilon) \longrightarrow |x_n - a| < \epsilon$$
+    
+    \subsection{Сформулируйте определение сходящейся последовательности.}
+
+    Последовательность, придел которой существует и конечен при $n \to \infty$. Поскольку 
+    неравенство $|a - x_n| < \epsilon$ эквивалентно неравенству 
+    $a - \epsilon < x_n < a + \epsilon$, то все элементы сходящейся последовательности 
+    за исключением конечного их числа при любом $\epsilon > 0$ лежат в $\epsilon$-окрестности 
+    точки $a$.
+
+    \subsection{Сформулируйте определение ограниченной последовательности.}
+
+    Последовательность $\{x_n\}$ называется ограниченной снизу, если существует число $c_1$
+    такое, что $x_n  \geqslant  c_1$ при всех $n = 1, 2, ...$
+
+    Последовательность $\{x_n\}$ называется ограниченной сверху, если существует число $c_2$
+    такое, что $x_n  \leqslant  c_2$ при всех $n = 1, 2, ...$
+
+    Последовательность $\{x_n\}$ ограниченная как сверху, так и снизу, называется ограниченной,
+    то есть $c_1  \leqslant  x_n  \leqslant  c_2$ при всех $n = 1, 2, ...$
+
+    $$\exists M > 0, M \in \mathbb{R}: \forall n \in \mathbb{N} \longrightarrow |x_n|  \leqslant  M 
+    (m  \leqslant  x_n  \leqslant  M, m \in \mathbb{R})$$
+
+    \subsection{Сформулируйте определение монотонной последовательности.}
+    
+    Последовательность называется монотонной, если она неубывающая($x_{n+1} \geqslant x_n$), возрастающая($x_{n+1}>x_n$), 
+    невозрастающая($x_{n+1} \leqslant x_n$) или убывающая($x_{n+1}<x_n$) для $\forall n \in \mathbb{N}$
+
+    \subsection{Сформулируйте определение возрастающей последовательности.}
+
+    Последовательность называется возрастающей, если $x_{n+1} > x_n \forall n \in \mathbb{N}$
+        
+    \subsection{Сформулируйте определение убывающей последовательности.}
+
+    Последовательность называется убывающей, если $x_{n+1} < x_n \forall n \in \mathbb{N}$
+        
+    \subsection{Сформулируйте определение невозрастающей последовательности.}
+    
+    Последовательность называется невозрастающей, если $x_{n+1} \leqslant x_n \forall n \in \mathbb{N}$
+        
+    \subsection{Сформулируйте определение неубывающей последовательности.}
+    
+    Последовательность называется неубывающей, если $x_{n+1} \geqslant x_n \forall n \in \mathbb{N}$
+    
+    \subsection{Сформулируйте определение фундаментальной последовательности.}
+    
+    Последовательность $\{x_n\}$ называется фундаментальной, если для любого $\epsilon > 0$ 
+    существует номер $N = N(\epsilon)$ такой, что для всех $m  \geqslant  N$ и $n  \geqslant  N$ выполняется 
+    неравенство $| x_m - x_n | < \epsilon$.
+
+    \subsection{Сформулируйте критерий Коши существования предела последовательности.}
+
+    Для того, чтобы последовательность была сходящейся, необходимо и достаточно, чтобы она была фундаментальной.
+
+    \subsection{Сформулируйте определение по Гейне предела функции.}
+
+    Пусть функция $f(x)$ определена в проколотой окрестности $\mathring U(x_0)$ точки $x_0$. 
+    Число $a$ называется пределом функции $f(x)$ при $x \to x_0$, если для любой последовательности 
+    $\{x_n\}$ точек из $\mathring U(x_0)$ , для которой $\lim\limits_{n \to \infty} x_n = x_0$,
+    выполняется равенство $\lim\limits_{n \to \infty} f(x_n) = a$.
+
+    \subsection{Сформулируйте определение бесконечно малой функции.}
+
+    Функция $f(x)$ называется бесконечно малой при $x \to x_0, x_0 \in \mathbb{R}$, если 
+    $\lim\limits_{x \to x_0} f(x) = 0$.
+
+    \subsection{Сформулируйте определение бесконечно большой функции.}
+    
+    Функция $f(x)$ называется бесконечно большой при $x \to x_0, x_0 \in \mathbb{R}$, 
+    если $\lim\limits_{x \to x_0} f(x) = +\infty$.
+
+    \subsection{Сформулируйте определение бесконечно малых функций одного порядка.}
+
+    Если существует конечный отличный от нуля предел $\lim\limits_{x \to x_0}\frac{f(x)}{g(x)} = C \ne 0$,
+    то говорят, что $f(x)$ и $g(x)$ являются при $x \to x_0$ бесконечно малыми одного порядка и пишут $f(x) = O(g(x))$.
+
+    \subsection{Сформулируйте определение несравнимых бесконечно малых функций.}
+
+    Если при $x \to x_0$ не существует ни конечного, ни бесконечного предела 
+    отношения $\frac{f(x)}{g(x)}$ или $\frac{g(x)}{f(x)}$, то говорят, что $f(x)$ и $g(x)$ не сравнимы при $x \to x_0$.
+
+    \subsection{Сформулируйте определение эквивалентных бесконечно малых функций.}
+    
+    В случае $C = 1$, т.е. если $\lim\limits_{x \to x_0}\frac{f(x)}{g(x)} = 1$, 
+    функции $f(x)$ и $g(x)$ называют эквивалентными бесконечно малыми и пишут $f(x) \sim g(x)$, при $x \to x_0$.
+
+    \subsection{Сформулируйте определение порядка малости одной функции относительно другой.}
+
+    Пусть $f(x)$ и $g(x)$ бесконечно малые при $x \to x_0$. Если при некотором $k$
+    бесконечно малые $f(x)$ и $(g(x))^k$ являются бесконечно малыми одного порядка,
+    то говорят, что $f(x)$ имеет порядок малости $k$ по сравнению с $g(x)$ при $x \to x_0$.
+
+    \subsection{Сформулируйте определение приращения функции.}
+
+    Приращением функции называют $\Delta f(x_0) = f(x) - f(x_0) = f(x_0 + \Delta x) - f(x_0)$.
+
+    \subsection{Сформулируйте определение непрерывности функции в точке (любое).}
+
+    Функция $f(x)$ называется непрерывной в точке $x_0$, если выполняется 3 пункта:
+    \begin{enumerate}
+        \item $\exists\lim\limits_{x \to x_0 + 0}f(x),\lim\limits_{x \to x_0 - 0}f(x)$
+        \item $\exists f(x_0)$
+        \item $f(x_0) = \lim\limits_{x \to x_0 + 0}f(x) = \lim\limits_{x \to x_0 - 0}f(x)$
+    \end{enumerate} 
+
+    \subsection{Сформулируйте определение непрерывности функции на интервале.}
+
+    Функция непрерывна на интервале, если она непрерывна в каждой точке этого интервала.
+
+    \subsection{Сформулируйте определение непрерывности функции на отрезке.}
+
+    Функция непрерывна на отрезке $[a,b]$, если она непрерывна на интервале $(a, b)$,
+    в точке $x = a$ слева, и в точке $x = b$ справа.
+
+    \subsection{Сформулируйте определение точки разрыва.}
+
+    Точка $x_0$ называется точкой разрыва функции $f(x)$, если не выполняется хотя бы один из 3 пунктов:
+    \begin{enumerate}
+        \item $\exists\lim\limits_{x \to x_0 + 0}f(x),\lim\limits_{x \to x_0 - 0}f(x)$
+        \item $\exists f(x_0)$
+        \item $f(x_0) = \lim\limits_{x \to x_0 + 0}f(x) = \lim\limits_{x \to x_0 - 0}f(x)$
+    \end{enumerate} 
+
+    \subsection{Сформулируйте определение точки устранимого разрыва.}
+
+    Если $f(x_0) \ne \lim\limits_{x \to x_0 + 0}f(x) = \lim\limits_{x \to x_0 - 0}f(x)$, то 
+    $x_0$ называют точкой устранимого разрыва функции $f(x)$.
+
+    \subsection{Сформулируйте определение точки разрыва I-го рода.}
+    
+    Если $x_0$ — точка разрыва функции $f(x)$, и существуют конечные пределы
+    $\lim\limits_{x \to x_0-} f(x) = f(x_0 - 0)$ и $\lim\limits_{x \to x_0+} f(x) = f(x_0 + 0)$,
+    то $x_0$ называется точкой разрыва первого рода.
+
+    \subsection{Сформулируйте определение точки разрыва II-го рода.}
+    
+    Функция $f(x)$ имеет точку разрыва второго рода при $x=x_0$, если по крайней мере один 
+    из односторонних пределов не существует или равен бесконечности.
+
+\newpage
+\section{Определение предела по Коши}
+    \subsection{Сформулируйте определение по Коши $\lim\limits_{x \to 0} f (x) = b$, где $b \in \mathbb{R}$. Приведите 
+    соответствующий пример (с геометрической иллюстрацией).}
+
+    Пусть $f(x)$ определена в проколотой окрестности $\mathring U(x_0)$ точки $x_0 = 0$. Число $b \in \mathbb{R}$ 
+    называется приделом функции $f(x)$ в точке $x \to x_0$, если для любого $\epsilon > 0$ существует число 
+    $\delta = \delta(\epsilon) > 0$ такое, что  для всех $x \in \mathring U_\delta(x_0)$ выполняется неравенство 
+    $|f(x) - b| < \epsilon$
+    \image{1.png}{200}{$f(x)$}
+
+    \subsection{Сформулируйте определение по Коши $\lim\limits_{x \to a} f (x) = +\infty$, где $a \in \mathbb{R}$. Приведите 
+    соответствующий пример (с геометрической иллюстрацией).}
+
+    Пусть $f(x)$ определена в проколотой окресности $\mathring U(x_0), x_0 = a$. Тогда 
+    $\lim\limits_{x \to x_0} f(x) = +\infty$, если существует сколь угодно малое $\epsilon > 0$, 
+    такое что найдется число $\delta = \delta(\epsilon) > 0$, при котором если $x \in \mathring U_\delta(x_0) \ 
+    0 < |x - x_0| < \delta$, то справедливо неравенство $f(x) > \epsilon$ 
+    \image{2.png}{200}{$f(x)$}
+
+    \subsection{Сформулируйте определение по Коши $\lim\limits_{x \to \infty} f (x) = 0$. Приведите соответствующии 
+    пример (с геометрической иллюстрацией).}
+
+    Пусть $f(x)$ определена в окресности $+\infty$. Тогда число 0 является пределом функции
+    $f(x)$, если для любого сколь угодно малого $\epsilon > 0$ найдется такое $\delta = \delta(\epsilon) > 0$, что
+    если $\forall x > \delta$, то верно неравенство $|f(x)| < \epsilon$
+    \image{3.png}{200}{$f(x)$}
+
+    \subsection{Сформулируйте определение по Коши $\lim\limits_{x \to a-0} f (x) = -\infty$, где $a \in 
+    \mathbb{R}$. Приведите соответствующий пример (с геометрической иллюстрацией).}
+
+    $\lim\limits_{x \to a-0} f (x) = -\infty$ - левосторонний предел функции $f(x)$ при $x \to a$, если 
+    для любого сколь угодно малого $\epsilon > 0$ найдется такое $\delta = \delta(\epsilon) > 0$, что если
+    $x \in \mathring U_\delta^-(x_0)$, то верно неравенство $f(x) < -\epsilon$
+    \image{4.png}{200}{$f(x)$}
+
+\newpage
+\section{Теоремы}
+
+    \subsection{Сформулируйте теорему об ограниченности сходящейся числовой последовательности. }
+
+    Всякая сходящаяся последовательность ограничена.
+    $$\exists \lim\limits_{x \to \infty} x_n = a, a \in \mathbb{R} \rightarrow 
+    \exists M > 0: \forall n \in \mathbb{N} \  x_n \in M$$
+
+    \subsection{Сформулируйте теорему о связи функции, ее предела и бесконечно малой. }
+
+    Если существует конечный $\lim\limits_{x \to a} f(x) = A$, то $f(x)$ представлена в виде
+    $f(x) = A + \alpha  (x)$, где $\lim\limits_{x \to a} \alpha  (x) = 0$ - бесконечно малая при $x \to a$
+
+    \subsection{Сформулируйте теорему о сумме конечного числа бесконечно малых функций. }
+
+    Сумма конечного числа функций, являющихся бесконечно малыми, при $x \to a$, 
+    есть величина бесконечно малая при $x \to a$
+    $$\exists \lim\limits_{x \to a} \alpha _k (x) = 0 \rightarrow \lim\limits_{x \to a} 
+    \sum\limits_{k=1}^n \alpha _k (x) = 0$$
+
+
+    \subsection{Сформулируйте теорему о произведении бесконечно малой на ограниченную функцию. }
+    
+    Если функция $\alpha  (x)$ бесконечно малая при $x \to a$, а $f(x)$ ограниченная функция, то
+    $\alpha  (x) \times f(x)$ бесконечно малая, при $x \to a$.
+
+    \subsection{Сформулируйте теорему о связи бесконечно малой и бесконечно большой функций. }
+
+    Если $f(x)$ бесконечно большая при $x \to a$, то $\frac{1}{f(x)}$ бесконечно малая при $x \to a$.
+    Если $\alpha  (x)$ бесконечно малая при $x \to a$ и отличная от нуля, то $\frac{1}{\alpha (x)}$ 
+    бесконечно большая при $x \to a$
+
+    \subsection{Сформулируйте теорему о необходимом и достаточном условии эквивалентности бесконечно малых. }
+
+    Две бесконечно малые ф-ции при $x \to a$ эквивалентны $\iff$ их разность есть бесконечно
+    малая более высокого порядка, чем каждая из них
+
+    $$(f(x) \sim g(x) \ x \to a) \iff (f(x) - g(x) = o(f(x))) \vee (f(x) - g(x) = o(g(x)))$$
+
+
+    \subsection{Сформулируйте теорему о сумме бесконечно малых разных порядков. }
+    
+    Если функции $\alpha  (x), \beta (x), ..., \gamma (x)$ бесконечно малые при $x \to a$,
+    то $\alpha  (x) + \beta (x) + ... + \gamma (x) \sim \alpha  (x)$ при $x \to a$,
+    где $\lim\limits_{x \to a} \frac{\beta (x)}{\alpha (x)} = 0; ...
+    \lim\limits_{x \to a} \frac{\gamma (x)}{\alpha (x)} = 0$
+    
+\end{document}

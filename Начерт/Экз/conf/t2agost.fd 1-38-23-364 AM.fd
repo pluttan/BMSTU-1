@@ -1,0 +1,4 @@
+\ProvidesFile{t2agost.fd}[Gost Font]
+\DeclareFontFamily{T2A}{gost}{}
+
+\DeclareFontShape{T2A}{gost}{b}{n}{<->gostbd}{}
