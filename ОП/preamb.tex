@@ -1,0 +1,212 @@
+\documentclass[a4paper, 20pt,reqno]{article}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[T2A]{fontenc}
+% \DeclareMathSizes{10}{10}{10}{10}
+
+\usepackage[russian]{babel}
+\usepackage{soul}
+\usepackage{gensymb}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage[document]{ragged2e}
+\usepackage{stmaryrd}
+\usepackage{wrapfig}
+\usepackage{fancyhdr}
+\usepackage{floatflt}
+\usepackage{python}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage[most]{tcolorbox}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\usepackage{scrextend}
+\usepackage{listings}
+\usepackage{makecell,tabularx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\newcommand{\mycopyright}{pluttan}
+\newcommand{\docopyright}{$\mathfrak{Copyright}\ \mathfrak{\mycopyright} \logo$}
+\newcommand{\rub}{{\rm{Р}\kern-.635em\rule[.5ex]{.52em}{.04em}\kern.11em}}
+
+\definecolor{linkcolor}{HTML}{000000} 
+\definecolor{urlcolor}{HTML}{0000FF} 
+
+\hypersetup{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor, colorlinks=true}
+
+\definecolor{grey}{RGB}{40, 40, 40}
+
+\renewcommand{\href}[1]{\url{#1}}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.7,0,0.82}
+\definecolor{mermaid}{rgb}{0.5,0.3,1}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{mermaid},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+  extendedchars=true , % включаем не латиницу 
+  escapechar=|, % |«выпадаем» в LATEX|
+  frame=tb , % рамка сверху и снизу 
+  commentstyle=\itshape , % шрифт для комментариев 
+  stringstyle=\bfseries
+}
+
+\lstset{style=mystyle}
+
+\lstdefinestyle{CommentStyle}{
+    language=XML,
+    %numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=5pt,
+    commentstyle=\color{red},
+	basicstyle=\footnotesize\ttfamily,
+	language={[ANSI]C++},
+	keywordstyle=\bfseries,
+	showstringspaces=false,
+	morekeywords={include, printf},
+	commentstyle={},
+	escapeinside=§§,
+	escapebegin=\begin{russian}\commentfont,
+	escapeend=\end{russian},
+    keywordstyle=\color{blue}\bfseries,
+    morekeywords={align,begin},
+    extendedchars=\true,
+    tabsize=2
+}
+\lstdefinestyle{myLatexStyle}{
+    language=c++,
+    %backgroundcolor=\color{grey},
+    numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=5pt,
+    commentstyle=\color{red},
+    keywordstyle=\color{blue}\bfseries,
+    morekeywords={align,begin},
+    extendedchars=\true,
+    tabsize=2
+}
+
+\lstdefinestyle{pmyLatexStyle}{
+    language=java,
+    %backgroundcolor=\color{grey},
+    numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=5pt,
+    commentstyle=\color{red},
+    keywordstyle=\color{blue}\bfseries,
+    morekeywords={align,begin},
+    extendedchars=\true,
+    tabsize=2
+}
+
+\definecolor{block-gray}{gray}{0.90} % уровень прозрачности (1 - максимум)
+\definecolor{yellow}{HTML}{F0FFFF}
+\newtcolorbox{myquote}{colback=block-gray,grow to right by=-10mm,grow to left by=-10mm,boxrule=0pt,boxsep=0pt,breakable} % настройки области с изменённым фоном
+\newtcolorbox{myquote2}{colback=yellow,grow to right by=-10mm,grow to left by=-10mm,boxrule=0pt,boxsep=0pt,breakable} % настройки области с изменённым фоном
+
+\setlength{\parindent}{12,5mm}
+
+\newcommand{\logo}{\vcenter{\hbox{\includegraphics[width=.8em]{/Users/pluttan/Documents/bw2.png}}}}
+\onehalfspacing
+
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\fancyhf{} 
+\fancyhead[R]{\bfseries\thepage}
+\fancyhead[LO]{\docopyright}
+
+\newcommand{\image}[2]{
+	\begin{figure}[H]
+		\center{\includegraphics[height=#2pt]{../img/#1} }
+    \end{figure}
+}
+
+\newcommand{\dotitle}[2]{
+
+\thispagestyle{empty}
+\sloppy{
+  \scriptsize{
+    \line(6,0){0}
+
+    \centering \docopyright
+
+    \centering Привет! Меня зовут Андрей, я создаю свою ботву, этот файл малая ее часть. 
+    
+    \centering Пользоваться и распространять файлы конечно же можно. Если вы нашли ошибку в файле, можете 
+    
+    \centering исправить ее в исходном коде и подать на слияние или просто написать в issue. 
+
+    \centering {\bf{Так же вы можете купить распечатанную версию данного файла в виде книжки.}
+    
+    \centering По всем вопросам писать в ВК.}
+    
+    \centering Приятного бота)
+
+    \line(6,0){300}
+
+    \centering GitHub: \href{https://github.com/pluttan}
+
+    \centering VK: \href{https://vk.com/pluttan}
+
+    \line(6,0){0}
+  }}
+
+\begin{figure}[H]
+		\center{\includegraphics[height=100pt]{/Users/pluttan/Documents/forMyDocs/qr2.png} }
+\end{figure}
+
+\topskip=-200pt
+\vspace*{130pt}
+\begin{Huge}
+  \textbf{
+    \begin{center}
+        #1
+    \end{center}
+  }
+  {\begin{center} 
+        #2
+    \end{center}}
+\end{Huge}
+\vspace*{300pt}
+  \begin{flushright}
+    Над файлом работали: \\
+    \mycopyright
+  \end{flushright}
+\newpage
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\fancyhf{} 
+\fancyhead[R]{\bfseries\thepage}
+\fancyhead[LO]{\docopyright}
+}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+% \makeatletter
+%      \renewcommand*\l@section{\@dottedtocline{1}{0em}{1.8em}}
+%      \renewcommand*\l@subsection{\@dottedtocline{2}{1.5em}{2.0em}}
+%      \renewcommand*\l@subsubsection{\@dottedtocline{3}{4.3em}{3.0em}}
+% \makeatother
+\newcommand{\toc}{
+\newpage
+\renewcommand{\contentsname}{Оглавление}
+\large{\tableofcontents}
+\newpage
+\large
+}
+
+
+% It's XeLaTeX, if you can't compile comment this line 
+\usepackage{fontspec}\setmainfont{Times New Roman} 

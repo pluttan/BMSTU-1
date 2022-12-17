@@ -1,0 +1,64 @@
+\renewcommand{\dotitle}[2]{
+
+\thispagestyle{empty}
+\begin{minipage}[l]{300pt}
+  \vspace*{25pt}
+  \sloppy{
+  \scriptsize{
+    \line(6,0){0}
+
+    \centering \docopyright
+
+    \centering Привет! Это Трубусы и Уточки, мы создаем свою ботву, этот файл малая ее часть. 
+    
+    \centering Пользоваться и распространять файлы конечно же можно. Если вы нашли ошибку в файле, можете 
+    
+    \centering исправить ее в исходном коде и подать на слияние или просто написать в issue. 
+
+    \centering \textbf{Так же вы можете купить распечатанную версию данного файла в виде книжки.}
+    
+    \centering \textbf{По всем вопросам писать в ВК.}
+    
+    \centering Приятного бота)
+
+    \line(6,0){300}
+
+    \centering GitHub: \href{https://github.com/pluttan}
+
+    \centering VK: \href{https://vk.com/pluttan}
+
+    \centering VK: \href{https://vk.com/f_i_i_x_i_i}
+
+    \line(6,0){0}}
+}
+\end{minipage}
+\begin{minipage}[r]{150pt}
+  \raggedright\includegraphics[height=150pt]{/Users/pluttan/Documents/forMyDocs/qr1.png}
+\end{minipage}
+
+
+\topskip=-250pt
+\vspace*{170pt}
+\begin{Huge}
+  \textbf{
+    \begin{center}
+        #1
+    \end{center}
+  }
+  {\begin{center} 
+        #2
+    \end{center}}
+\end{Huge}
+\vspace*{250pt}
+  \begin{flushright}
+    Над файлом работали: \\
+    \mycopyright
+  \end{flushright}
+% \newpage
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\fancyhf{} 
+\fancyhead[R]{\bfseries\thepage}
+\fancyhead[LO]{\docopyright}
+}
+\renewcommand{\mycopyright}{pluttan \& fiixii}

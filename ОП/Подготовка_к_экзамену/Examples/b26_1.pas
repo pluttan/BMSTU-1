@@ -1,0 +1,2 @@
+
+Type check = Object;

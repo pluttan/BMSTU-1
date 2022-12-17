@@ -1,0 +1,42 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Теоритическая часть}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Синтаксис и семантика языков программирования. Алфавит языка Pascal. Описание синтаксиса языка: синтаксические диаграммы. Примеры. }{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Представление данных в языке Pascal: константы и переменные. Классификация скалярных типов данных, их внутреннее представление, операции над ними. Примеры.}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Совместимость типов данных и операции преобразования типов. Примеры. }{8}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Присваивание, условный оператор, оператор выбора. Синтаксис операторов, их особенности и примеры использования. }{9}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Операторы циклов языка Pascal. Синтаксис операторов, их особенности и примеры использования. }{11}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Поисковый цикл. Неструктурная и структурная реализации поискового цикла. }{12}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Массивы языка Pascal. Описание, внутреннее представление, операции над массивами и их элементами. Примеры. }{14}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Строки языка Pascal. Описание, внутреннее представление, операции над строками и их элементами. Примеры. }{16}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Множества языка Pascal. Описание, внутреннее представление, операции над множествами и их элементами. Примеры. }{19}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Записи языка Pascal. Описание, внутреннее представление, операции над записями и их элементами. Примеры. }{22}{subsection.1.10}%
+\contentsline {subsection}{\numberline {1.11}Процедуры и функции. Определение, описание, особенности. Примеры. }{24}{subsection.1.11}%
+\contentsline {subsection}{\numberline {1.12}Способы передачи данных в подпрограмму на языке Pascal. Примеры. }{25}{subsection.1.12}%
+\contentsline {subsection}{\numberline {1.13}Локальные и глобальные переменные, законы «видимости» идентификаторов. Примеры. }{26}{subsection.1.13}%
+\contentsline {subsection}{\numberline {1.14}Формальные и фактические параметры подпрограмм языка Pascal. Примеры. }{27}{subsection.1.14}%
+\contentsline {subsection}{\numberline {1.15}Параметры-строки, параметры-массивы. Примеры. }{28}{subsection.1.15}%
+\contentsline {subsection}{\numberline {1.16}Принципы разработки универсальных подпрограмм: «открытые» массивы. Примеры. }{29}{subsection.1.16}%
+\contentsline {subsection}{\numberline {1.17}Принципы разработки универсальных подпрограмм: нетипизированные параметры, параметры процедурного типа. Примеры. }{30}{subsection.1.17}%
+\contentsline {subsection}{\numberline {1.18}Структура модуля языка Pascal. Законы видимости идентификаторов. Доступ к «перекрытым» идентификаторам. Примеры. }{31}{subsection.1.18}%
+\contentsline {subsection}{\numberline {1.19}Рекурсия. Виды рекурсии. Особенности программирования. Достоинства и недостатки. Пример. }{32}{subsection.1.19}%
+\contentsline {subsection}{\numberline {1.20}Адресация динамической памяти: понятие адреса, операции получения адреса и разыменования. Процедуры получения памяти и освобождения ее. Примеры. }{34}{subsection.1.20}%
+\contentsline {subsection}{\numberline {1.21}Списковые структуры данных. Классификация и основные приемы работы с ними: создание элемента, добавление элемента к списку, удаление элемента из списка. Область применения списковых структур данных. Пример. }{36}{subsection.1.21}%
+\contentsline {subsection}{\numberline {1.22}Основы файловой системы: файл, каталог, полное имя файла, внутреннее представление информации в файле. Файловая переменная. Операции открытия и закрытия файлов. Примеры. }{41}{subsection.1.22}%
+\contentsline {subsection}{\numberline {1.23}Текстовые файлы. Внутреннее представление информации в файле. Операции над файлами. Пример. }{43}{subsection.1.23}%
+\contentsline {subsection}{\numberline {1.24}Типизированные файлы: внутреннее представление информации в файле. Операции над файлами. Пример. }{46}{subsection.1.24}%
+\contentsline {subsection}{\numberline {1.25}Нетипизированные файлы. Внутреннее представление информации в файле. Операции над файлами. Пример. }{47}{subsection.1.25}%
+\contentsline {subsection}{\numberline {1.26}Классы консольного режима среды Lazarus: описание классов, поля и методы, объявление объектов класса, доступ к полям и методам объекта, ограничение доступа. Пример. }{48}{subsection.1.26}%
+\contentsline {subsection}{\numberline {1.27}Классы консольного режима среды Lazarus: Способы инициализации полей. Неявный параметр Self. Пример. }{50}{subsection.1.27}%
+\contentsline {subsection}{\numberline {1.28}Процедурная и объектная декомпозиция. Диаграммы классов. Отношения между классами. Примеры. }{51}{subsection.1.28}%
+\contentsline {subsection}{\numberline {1.29}Динамические объекты и объекты с динамическими полями в консольном режиме среды Lazarus. Примеры. }{54}{subsection.1.29}%
+\contentsline {subsection}{\numberline {1.30}Технология событийного программирования. События операционной системы, сообщения и события Lazarus. Основные события Lazarus. Примеры.}{55}{subsection.1.30}%
+\contentsline {section}{\numberline {2}Практическая часть.}{57}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Задача 1.}{57}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Задача 2.}{59}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Задача 3. (Реальная задача с экзамена)}{61}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Задача 4. (Реальная задача с экзамена)}{63}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Решение 1. Композиция}{63}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Решение 2. Наследование}{65}{subsubsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.5}Задача 5. (Реальная задача с экзамена)}{67}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Решение 1. Композиция}{67}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Решение 2. Наследование}{69}{subsubsection.2.5.2}%
