@@ -1,3 +1,0 @@
-#!/bin/sh
-
-python3 -u /Users/pluttan/Documents/forMyDocs/test.py '$1'
