@@ -1,21 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.12.12)  21 DEC 2022 16:35
-entering extended mode
- \write18 enabled.
- %&-line parsing enabled.
-**/root/BMSTU/BMSTU-1/Начерт/Экз/exam.tex
-(/root/BMSTU/BMSTU-1/Начерт/Экз/exam.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-01-21>
 
-LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 1.
-
-No file /Users/pluttan/Documents/forMyDocs/preamb.
-
-LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 2.
-
-No file /Users/pluttan/Documents/forMyDocs/preambMisha.
 
 ! LaTeX Error: \usepackage before \documentclass.
 

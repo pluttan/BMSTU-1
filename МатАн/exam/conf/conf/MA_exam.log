@@ -1,16 +1,16 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.12.12)  21 DEC 2022 16:35
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.12.27)  27 DEC 2022 13:06
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**/root/BMSTU/BMSTU-1/МатАн/РК2/matan_rk2.tex
-(/root/BMSTU/BMSTU-1/МатАн/РК2/matan_rk2.tex
+**/BMSTU/BMSTU-1/МатАн/exam/conf/MA_exam.tex
+(/BMSTU/BMSTU-1/МатАн/exam/conf/MA_exam.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 1.
+e 2.
 
-(/root/BMSTU/forMyDocs/preamb/preamb.tex
+(/BMSTU/forMyDocs/preamb/preamb.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -102,21 +102,28 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen149
 \SOUL@ulht=\dimen150
 )
-(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
-Package: gensymb 2003/07/02 v1.0 (WaS)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2021/02/02 v1.28 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count194
+\calc@Bcount=\count195
+\calc@Adimen=\dimen151
+\calc@Bdimen=\dimen152
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count196
+\calc@Cskip=\skip52
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks23
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip50
+\@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -124,53 +131,76 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks24
-\ex@=\dimen151
+\@emptytoks=\toks23
+\ex@=\dimen153
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen152
+\pmbraise@=\dimen154
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count194
+\inf@bad=\count197
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count195
-\leftroot@=\count196
+\uproot@=\count198
+\leftroot@=\count199
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count197
-\DOTSCASE@=\count198
+\classnum@=\count266
+\DOTSCASE@=\count267
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box50
 \strutbox@=\box51
-\big@size=\dimen153
+\big@size=\dimen155
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count199
-\c@MaxMatrixCols=\count266
+\macc@depth=\count268
+\c@MaxMatrixCols=\count269
 \dotsspace@=\muskip16
-\c@parentequation=\count267
-\dspbrk@lvl=\count268
-\tag@help=\toks25
-\row@=\count269
-\column@=\count270
-\maxfields@=\count271
-\andhelp@=\toks26
-\eqnshift@=\dimen154
-\alignsep@=\dimen155
-\tagshift@=\dimen156
-\tagwidth@=\dimen157
-\totwidth@=\dimen158
-\lineht@=\dimen159
-\@envbody=\toks27
-\multlinegap=\skip51
-\multlinetaggap=\skip52
-\mathdisplay@stack=\toks28
+\c@parentequation=\count270
+\dspbrk@lvl=\count271
+\tag@help=\toks24
+\row@=\count272
+\column@=\count273
+\maxfields@=\count274
+\andhelp@=\toks25
+\eqnshift@=\dimen156
+\alignsep@=\dimen157
+\tagshift@=\dimen158
+\tagwidth@=\dimen159
+\totwidth@=\dimen160
+\lineht@=\dimen161
+\@envbody=\toks26
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
+)
+\g_MT_multlinerow_int=\count275
+\l_MT_multwidth_dim=\dimen162
+\origjot=\skip56
+\l_MT_shortvdotswithinadjustabove_dim=\dimen163
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen164
+\l_MT_above_intertext_sep=\dimen165
+\l_MT_below_intertext_sep=\dimen166
+\l_MT_above_shortintertext_sep=\dimen167
+\l_MT_below_shortintertext_sep=\dimen168
+\xmathstrut@box=\box52
+\xmathstrut@dim=\dimen169
+)
+(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -196,20 +226,20 @@ Package graphics Info: Driver file: xetex.def on input line 107.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen160
-\Gin@req@width=\dimen161
+\Gin@req@height=\dimen170
+\Gin@req@width=\dimen171
 )
 (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box52
-\UL@hyphenbox=\box53
-\UL@skip=\skip53
-\UL@hook=\toks29
-\UL@height=\dimen162
-\UL@pe=\count272
-\UL@pixel=\dimen163
-\ULC@box=\box54
+\UL@box=\box53
+\UL@hyphenbox=\box54
+\UL@skip=\skip57
+\UL@hook=\toks28
+\UL@height=\dimen172
+\UL@pe=\count276
+\UL@pixel=\dimen173
+\ULC@box=\box55
 Package: ulem 2019/11/18
-\ULdepth=\dimen164
+\ULdepth=\dimen174
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2021/12/15 v3.1 ragged2e Package
@@ -220,9 +250,9 @@ LaTeX Warning: Command \@arrayparboxrestore  has changed.
 
 (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks30
-\footnotemargin=\dimen165
-\c@pp@next@reset=\count273
+\FN@temptoken=\toks29
+\footnotemargin=\dimen175
+\c@pp@next@reset=\count277
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -232,20 +262,20 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
-\CenteringLeftskip=\skip54
-\RaggedLeftLeftskip=\skip55
-\RaggedRightLeftskip=\skip56
-\CenteringRightskip=\skip57
-\RaggedLeftRightskip=\skip58
-\RaggedRightRightskip=\skip59
-\CenteringParfillskip=\skip60
-\RaggedLeftParfillskip=\skip61
-\RaggedRightParfillskip=\skip62
-\JustifyingParfillskip=\skip63
-\CenteringParindent=\skip64
-\RaggedLeftParindent=\skip65
-\RaggedRightParindent=\skip66
-\JustifyingParindent=\skip67
+\CenteringLeftskip=\skip58
+\RaggedLeftLeftskip=\skip59
+\RaggedRightLeftskip=\skip60
+\CenteringRightskip=\skip61
+\RaggedLeftRightskip=\skip62
+\RaggedRightRightskip=\skip63
+\CenteringParfillskip=\skip64
+\RaggedLeftParfillskip=\skip65
+\RaggedRightParfillskip=\skip66
+\JustifyingParfillskip=\skip67
+\CenteringParindent=\skip68
+\RaggedLeftParindent=\skip69
+\RaggedRightParindent=\skip70
+\JustifyingParindent=\skip71
 )
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
@@ -254,47 +284,47 @@ LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 (Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen166
-\WF@size=\dimen167
-\c@WF@wrappedlines=\count274
-\WF@box=\box55
-\WF@everypar=\toks31
+\wrapoverhang=\dimen176
+\WF@size=\dimen177
+\c@WF@wrappedlines=\count278
+\WF@box=\box56
+\WF@everypar=\toks30
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip68
-\f@nch@O@elh=\skip69
-\f@nch@O@erh=\skip70
-\f@nch@O@olh=\skip71
-\f@nch@O@orh=\skip72
-\f@nch@O@elf=\skip73
-\f@nch@O@erf=\skip74
-\f@nch@O@olf=\skip75
-\f@nch@O@orf=\skip76
+\f@nch@headwidth=\skip72
+\f@nch@O@elh=\skip73
+\f@nch@O@erh=\skip74
+\f@nch@O@olh=\skip75
+\f@nch@O@orh=\skip76
+\f@nch@O@elf=\skip77
+\f@nch@O@erf=\skip78
+\f@nch@O@olf=\skip79
+\f@nch@O@orf=\skip80
 )
 (/usr/share/texlive/texmf-dist/tex/latex/floatflt/floatflt.sty
 Package: floatflt 1997/07/16 v. 1.31
-\c@OptionTest=\count275
-\figbox=\box56
-\tabbox=\box57
-\pagebox=\box58
-\ffigcount=\count276
-\ftabcount=\count277
-\fftest=\count278
-\hangcount=\count279
-\nosuccesstryfig=\count280
-\nosuccesstrytab=\count281
-\figgutter=\dimen168
-\tabgutter=\dimen169
-\htdone=\dimen170
-\pageht=\dimen171
-\startpageht=\dimen172
-\tabbredd=\dimen173
-\floatfltwidth=\dimen174
-\fltitemwidth=\dimen175
-\outputpretest=\toks32
+\c@OptionTest=\count279
+\figbox=\box57
+\tabbox=\box58
+\pagebox=\box59
+\ffigcount=\count280
+\ftabcount=\count281
+\fftest=\count282
+\hangcount=\count283
+\nosuccesstryfig=\count284
+\nosuccesstrytab=\count285
+\figgutter=\dimen178
+\tabgutter=\dimen179
+\htdone=\dimen180
+\pageht=\dimen181
+\startpageht=\dimen182
+\tabbredd=\dimen183
+\floatfltwidth=\dimen184
+\fltitemwidth=\dimen185
+\outputpretest=\toks31
 )
 (/usr/share/texlive/texmf-dist/tex/latex/python/python.sty
 Package: python 2021/08/03 v0.22 Python in LaTeX
@@ -303,11 +333,11 @@ Package: python 2021/08/03 v0.22 Python in LaTeX
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count282
-\float@exts=\toks33
-\float@box=\box59
-\@float@everytoks=\toks34
-\@floatcapt=\box60
+\c@float@type=\count286
+\float@exts=\toks32
+\float@box=\box60
+\@float@everytoks=\toks33
+\@floatcapt=\box61
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2022/01/07 version 5.0.2 text color boxes
@@ -315,13 +345,13 @@ Package: tcolorbox 2022/01/07 version 5.0.2 text color boxes
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks35
-\pgfutil@tempdima=\dimen176
-\pgfutil@tempdimb=\dimen177
+\pgfutil@everybye=\toks34
+\pgfutil@tempdima=\dimen186
+\pgfutil@tempdimb=\dimen187
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box61
+\pgfutil@abb=\box62
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
@@ -334,33 +364,33 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks36
-\pgfkeys@temptoks=\toks37
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks38
+\pgfkeys@tmptoks=\toks37
 ))
-\pgf@x=\dimen178
-\pgf@y=\dimen179
-\pgf@xa=\dimen180
-\pgf@ya=\dimen181
-\pgf@xb=\dimen182
-\pgf@yb=\dimen183
-\pgf@xc=\dimen184
-\pgf@yc=\dimen185
-\pgf@xd=\dimen186
-\pgf@yd=\dimen187
+\pgf@x=\dimen188
+\pgf@y=\dimen189
+\pgf@xa=\dimen190
+\pgf@ya=\dimen191
+\pgf@xb=\dimen192
+\pgf@yb=\dimen193
+\pgf@xc=\dimen194
+\pgf@yc=\dimen195
+\pgf@xd=\dimen196
+\pgf@yd=\dimen197
 \w@pgf@writea=\write5
 \r@pgf@reada=\read3
-\c@pgf@counta=\count283
-\c@pgf@countb=\count284
-\c@pgf@countc=\count285
-\c@pgf@countd=\count286
-\t@pgf@toka=\toks39
-\t@pgf@tokb=\toks40
-\t@pgf@tokc=\toks41
-\pgf@sys@id@count=\count287
+\c@pgf@counta=\count287
+\c@pgf@countb=\count288
+\c@pgf@countc=\count289
+\c@pgf@countd=\count290
+\t@pgf@toka=\toks38
+\t@pgf@tokb=\toks39
+\t@pgf@tokc=\toks40
+\pgf@sys@id@count=\count291
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -376,13 +406,13 @@ File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
 f
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )
-\pgfsys@objnum=\count288
+\pgfsys@objnum=\count292
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count289
-\pgfsyssoftpath@bigbuffer@items=\count290
+\pgfsyssoftpath@smallbuffer@items=\count293
+\pgfsyssoftpath@bigbuffer@items=\count294
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -410,12 +440,12 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen188
-\pgfmath@count=\count291
-\pgfmath@box=\box62
-\pgfmath@toks=\toks42
-\pgfmath@stack@operand=\toks43
-\pgfmath@stack@operation=\toks44
+\pgfmath@dimen=\dimen198
+\pgfmath@count=\count295
+\pgfmath@box=\box63
+\pgfmath@toks=\toks41
+\pgfmath@stack@operand=\toks42
+\pgfmath@stack@operation=\toks43
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -435,58 +465,58 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count292
+\c@pgfmathroundto@lastzeros=\count296
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen189
-\pgf@picmaxx=\dimen190
-\pgf@picminy=\dimen191
-\pgf@picmaxy=\dimen192
-\pgf@pathminx=\dimen193
-\pgf@pathmaxx=\dimen194
-\pgf@pathminy=\dimen195
-\pgf@pathmaxy=\dimen196
-\pgf@xx=\dimen197
-\pgf@xy=\dimen198
-\pgf@yx=\dimen199
-\pgf@yy=\dimen256
-\pgf@zx=\dimen257
-\pgf@zy=\dimen258
+\pgf@picminx=\dimen199
+\pgf@picmaxx=\dimen256
+\pgf@picminy=\dimen257
+\pgf@picmaxy=\dimen258
+\pgf@pathminx=\dimen259
+\pgf@pathmaxx=\dimen260
+\pgf@pathminy=\dimen261
+\pgf@pathmaxy=\dimen262
+\pgf@xx=\dimen263
+\pgf@xy=\dimen264
+\pgf@yx=\dimen265
+\pgf@yy=\dimen266
+\pgf@zx=\dimen267
+\pgf@zy=\dimen268
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen259
-\pgf@path@lasty=\dimen260
+\pgf@path@lastx=\dimen269
+\pgf@path@lasty=\dimen270
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen261
-\pgf@shorten@start@additional=\dimen262
+\pgf@shorten@end@additional=\dimen271
+\pgf@shorten@start@additional=\dimen272
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box63
-\pgf@hbox=\box64
-\pgf@layerbox@main=\box65
-\pgf@picture@serial@count=\count293
+\pgfpic=\box64
+\pgf@hbox=\box65
+\pgf@layerbox@main=\box66
+\pgf@picture@serial@count=\count297
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen263
+\pgflinewidth=\dimen273
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen264
-\pgf@pt@y=\dimen265
-\pgf@pt@temp=\dimen266
+\pgf@pt@x=\dimen274
+\pgf@pt@y=\dimen275
+\pgf@pt@temp=\dimen276
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -502,13 +532,13 @@ File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen267
+\pgfarrowsep=\dimen277
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen268
-\pgf@sys@shading@range@num=\count294
-\pgf@shadingcount=\count295
+\pgf@max=\dimen278
+\pgf@sys@shading@range@num=\count298
+\pgf@shadingcount=\count299
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -516,7 +546,7 @@ File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box66
+\pgfexternal@startupbox=\box67
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -535,23 +565,23 @@ File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box67
+\pgfnodeparttextbox=\box68
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen269
-\pgf@nodesepend=\dimen270
+\pgf@nodesepstart=\dimen279
+\pgf@nodesepend=\dimen280
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 )) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks45
-\verbatim@line=\toks46
+\every@verbatim=\toks44
+\verbatim@line=\toks45
 \verbatim@in@stream=\read4
 )
 (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
@@ -562,26 +592,26 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count296
+\etb@tempcnta=\count300
 )
-\tcb@titlebox=\box68
-\tcb@upperbox=\box69
-\tcb@lowerbox=\box70
-\tcb@phantombox=\box71
-\c@tcbbreakpart=\count297
-\c@tcblayer=\count298
-\c@tcolorbox@number=\count299
-\tcb@temp=\box72
+\tcb@titlebox=\box69
+\tcb@upperbox=\box70
+\tcb@lowerbox=\box71
+\tcb@phantombox=\box72
+\c@tcbbreakpart=\count301
+\c@tcblayer=\count302
+\c@tcolorbox@number=\count303
 \tcb@temp=\box73
 \tcb@temp=\box74
 \tcb@temp=\box75
+\tcb@temp=\box76
 
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '5.0.2'
-\c@tcbrastercolumn=\count300
-\c@tcbrasterrow=\count301
-\c@tcbrasternum=\count302
-\c@tcbraster=\count303
+\c@tcbrastercolumn=\count304
+\c@tcbrasterrow=\count305
+\c@tcbrasternum=\count306
+\c@tcbraster=\count307
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '5.0.2'
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -594,10 +624,10 @@ Library (tcolorbox): 'tcbskins.code.tex' version '5.0.2'
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen271
-\pgffor@skip=\dimen272
-\pgffor@stack=\toks47
-\pgffor@toks=\toks48
+\pgffor@iter=\dimen281
+\pgffor@skip=\dimen282
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
@@ -605,39 +635,39 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count304
-\pgfplotmarksize=\dimen273
+\pgf@plot@mark@count=\count308
+\pgfplotmarksize=\dimen283
 )
-\tikz@lastx=\dimen274
-\tikz@lasty=\dimen275
-\tikz@lastxsaved=\dimen276
-\tikz@lastysaved=\dimen277
-\tikz@lastmovetox=\dimen278
-\tikz@lastmovetoy=\dimen279
-\tikzleveldistance=\dimen280
-\tikzsiblingdistance=\dimen281
-\tikz@figbox=\box76
-\tikz@figbox@bg=\box77
-\tikz@tempbox=\box78
-\tikz@tempbox@bg=\box79
-\tikztreelevel=\count305
-\tikznumberofchildren=\count306
-\tikznumberofcurrentchild=\count307
-\tikz@fig@count=\count308
+\tikz@lastx=\dimen284
+\tikz@lasty=\dimen285
+\tikz@lastxsaved=\dimen286
+\tikz@lastysaved=\dimen287
+\tikz@lastmovetox=\dimen288
+\tikz@lastmovetoy=\dimen289
+\tikzleveldistance=\dimen290
+\tikzsiblingdistance=\dimen291
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count309
+\tikznumberofchildren=\count310
+\tikznumberofcurrentchild=\count311
+\tikz@fig@count=\count312
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count309
-\pgfmatrixcurrentcolumn=\count310
-\pgf@matrix@numberofcolumns=\count311
+\pgfmatrixcurrentrow=\count313
+\pgfmatrixcurrentcolumn=\count314
+\pgf@matrix@numberofcolumns=\count315
 )
-\tikz@expandcount=\count312
+\tikz@expandcount=\count316
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-\tcb@waterbox=\box80
+\tcb@waterbox=\box81
 
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '5.0.2'
@@ -655,9 +685,9 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
 )
 Package pdfcol Info: pdfTeX's color stacks are not available.
-\tcb@testbox=\box81
-\tcb@totalupperbox=\box82
-\tcb@totallowerbox=\box83
+\tcb@testbox=\box82
+\tcb@totalupperbox=\box83
+\tcb@totallowerbox=\box84
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '5.0.2'
@@ -665,10 +695,10 @@ Library (tcolorbox): 'tcbhooks.code.tex' version '5.0.2'
 Library (tcolorbox): 'tcbtheorems.code.tex' version '5.0.2'
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '5.0.2'
-\tcbfitdim=\dimen282
-\tcb@lowerfitdim=\dimen283
-\tcb@upperfitdim=\dimen284
-\tcb@cur@hbadness=\count313
+\tcbfitdim=\dimen292
+\tcb@lowerfitdim=\dimen293
+\tcb@upperfitdim=\dimen294
+\tcb@cur@hbadness=\count317
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
 Library (tcolorbox): 'tcbxparse.code.tex' version '5.0.2'
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
@@ -679,14 +709,14 @@ Package: expl3 2022-01-21 L3 programming layer (loader)
 File: l3backend-xetex.def 2022-01-12 L3 backend support: XeTeX
 
 (|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count314
-\l__color_backend_stack_int=\count315
-\g__color_backend_stack_int=\count316
-\g__graphics_track_int=\count317
-\l__pdf_internal_box=\box84
-\g__pdf_backend_object_int=\count318
-\g__pdf_backend_annotation_int=\count319
-\g__pdf_backend_link_int=\count320
+\c__kernel_sys_dvipdfmx_version_int=\count318
+\l__color_backend_stack_int=\count319
+\g__color_backend_stack_int=\count320
+\g__graphics_track_int=\count321
+\l__pdf_internal_box=\box85
+\g__pdf_backend_object_int=\count322
+\g__pdf_backend_annotation_int=\count323
+\g__pdf_backend_link_int=\count324
 ))
 Package: xparse 2022-01-12 L3 Experimental document command parser
 ))
@@ -695,24 +725,24 @@ Library (tcolorbox): 'tcblistingsutf8.code.tex' version '5.0.2'
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '5.0.2'
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count321
-\lst@gtempboxa=\box85
-\lst@token=\toks49
-\lst@length=\count322
-\lst@currlwidth=\dimen285
-\lst@column=\count323
-\lst@pos=\count324
-\lst@lostspace=\dimen286
-\lst@width=\dimen287
-\lst@newlines=\count325
-\lst@lineno=\count326
-\lst@maxwidth=\dimen288
+\lst@mode=\count325
+\lst@gtempboxa=\box86
+\lst@token=\toks48
+\lst@length=\count326
+\lst@currlwidth=\dimen295
+\lst@column=\count327
+\lst@pos=\count328
+\lst@lostspace=\dimen296
+\lst@width=\dimen297
+\lst@newlines=\count329
+\lst@lineno=\count330
+\lst@maxwidth=\dimen298
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count327
-\lst@skipnumbers=\count328
-\lst@framebox=\box86
+\c@lstnumber=\count331
+\lst@skipnumbers=\count332
+\lst@framebox=\box87
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -734,7 +764,7 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 ))
-\c@tcblisting=\count329
+\c@tcblisting=\count333
 ))
 Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
 Library `listings` is loaded instead. on input line 29.
@@ -792,27 +822,27 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen289
-\ar@mcellbox=\box87
-\extrarowheight=\dimen290
-\NC@list=\toks50
-\extratabsurround=\skip77
-\backup@length=\skip78
-\ar@cellbox=\box88
+\col@sep=\dimen299
+\ar@mcellbox=\box88
+\extrarowheight=\dimen300
+\NC@list=\toks49
+\extratabsurround=\skip81
+\backup@length=\skip82
+\ar@cellbox=\box89
 )
-\rotheadsize=\dimen291
-\c@nlinenum=\count330
-\TeXr@lab=\toks51
+\rotheadsize=\dimen301
+\c@nlinenum=\count334
+\TeXr@lab=\toks50
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen292
-\TX@old@table=\dimen293
-\TX@old@col=\dimen294
-\TX@target=\dimen295
-\TX@delta=\dimen296
-\TX@cols=\count331
-\TX@ftn=\toks52
+\TX@col@width=\dimen302
+\TX@old@table=\dimen303
+\TX@old@col=\dimen304
+\TX@target=\dimen305
+\TX@delta=\dimen306
+\TX@cols=\count335
+\TX@ftn=\toks51
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
@@ -838,9 +868,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen297
-\Hy@linkcounter=\count332
-\Hy@pagecounter=\count333
+\@linkdim=\dimen307
+\Hy@linkcounter=\count336
+\Hy@pagecounter=\count337
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
@@ -855,7 +885,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count334
+\Hy@SavedSpaceFactor=\count338
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
@@ -868,14 +898,14 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count335
+\c@Hy@tempcnt=\count339
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen298
+\XeTeXLinkMargin=\dimen308
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -884,9 +914,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count336
-\Field@Width=\dimen299
-\Fld@charsize=\dimen300
+\Fld@menulength=\count340
+\Field@Width=\dimen309
+\Fld@charsize=\dimen310
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -901,9 +931,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count337
-\c@Item=\count338
-\c@Hfootnote=\count339
+\Hy@abspage=\count341
+\c@Item=\count342
+\c@Hfootnote=\count343
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -914,11 +944,11 @@ File: hxetex.def 2021-06-07 v7.00m Hyperref driver for XeTeX
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box89
-\c@Hy@AnnotLevel=\count340
-\HyField@AnnotCount=\count341
-\Fld@listcount=\count342
-\c@bookmark@seq@number=\count343
+\pdfm@box=\box90
+\c@Hy@AnnotLevel=\count344
+\HyField@AnnotCount=\count345
+\Fld@listcount=\count346
+\c@bookmark@seq@number=\count347
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -934,35 +964,33 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip79
+\Hy@SectionHShift=\skip83
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 37.
-
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count344
-\l__fontspec_language_int=\count345
-\l__fontspec_strnum_int=\count346
-\l__fontspec_tmp_int=\count347
-\l__fontspec_tmpa_int=\count348
-\l__fontspec_tmpb_int=\count349
-\l__fontspec_tmpc_int=\count350
-\l__fontspec_em_int=\count351
-\l__fontspec_emdef_int=\count352
-\l__fontspec_strong_int=\count353
-\l__fontspec_strongdef_int=\count354
-\l__fontspec_tmpa_dim=\dimen301
-\l__fontspec_tmpb_dim=\dimen302
-\l__fontspec_tmpc_dim=\dimen303
+\l__fontspec_script_int=\count348
+\l__fontspec_language_int=\count349
+\l__fontspec_strnum_int=\count350
+\l__fontspec_tmp_int=\count351
+\l__fontspec_tmpa_int=\count352
+\l__fontspec_tmpb_int=\count353
+\l__fontspec_tmpc_int=\count354
+\l__fontspec_em_int=\count355
+\l__fontspec_emdef_int=\count356
+\l__fontspec_strong_int=\count357
+\l__fontspec_strongdef_int=\count358
+\l__fontspec_tmpa_dim=\dimen311
+\l__fontspec_tmpb_dim=\dimen312
+\l__fontspec_tmpc_dim=\dimen313
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg))))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 
 Package fontspec Info: Font family 'TimesNewRomanCyr(0)' created for font
 (fontspec)             'Times New Roman Cyr' with options [Ligatures=TeX].
@@ -983,18 +1011,14 @@ Package fontspec Info: Font family 'TimesNewRomanCyr(0)' created for font
 (fontspec)             Roman Cyr/BI/OT:language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-
-
-LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 2.
-
-(/root/BMSTU/forMyDocs/preamb/preambMisha.tex)
+Package hyperref Info: Option `colorlinks' set `false' on input line 70.
+)
 
 LaTeX Warning: Unused global option(s):
     [20pt].
 
-(./matan_rk2.aux)
-\openout1 = `matan_rk2.aux'.
+(./MA_exam.aux)
+\openout1 = `MA_exam.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -1070,8 +1094,8 @@ Package gensymb Info: Using \Omega for \ohm on input line 4.
 Package gensymb Warning: Not defining \micro.
 
 Package ragged2e Info: ABD: executing \RaggedRight on input line 4.
-\c@lstlisting=\count355
-Package hyperref Info: Link coloring ON on input line 4.
+\c@lstlisting=\count359
+Package hyperref Info: Link coloring OFF on input line 4.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1081,15 +1105,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count356
+\c@section@level=\count360
 )
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
 
-(./matan_rk2.out) (./matan_rk2.out)
+(./MA_exam.out) (./MA_exam.out)
 \@outlinefile=\write6
-\openout6 = `matan_rk2.out'.
+\openout6 = `MA_exam.out'.
 
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -1154,73 +1178,825 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 4.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 4.
-File: ../img/bg100.png Graphic file (type bmp)
-<../img/bg100.png>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+File: ../../img/bg100.png Graphic file (type bmp)
+<../../img/bg100.png>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 6.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 7.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 6
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 7
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-LaTeX Font Info:    Trying to load font information for U+euf on input line 6.
+LaTeX Font Info:    Trying to load font information for U+euf on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
-File: /root/BMSTU/forMyDocs/preamb/bw2.png Graphic file (type bmp)
-</root/BMSTU/forMyDocs/preamb/bw2.png>
-File: /root/BMSTU/forMyDocs/preamb/qr1.png Graphic file (type bmp)
-</root/BMSTU/forMyDocs/preamb/qr1.png>
+File: /BMSTU/forMyDocs/preamb/qr1.png Graphic file (type bmp)
+</BMSTU/forMyDocs/preamb/qr1.png>
  [1
 
 ]
-Overfull \hbox (2.91476pt too wide) in paragraph at lines 60--61
-[]\TU/TimesNewRomanCyr(0)/m/n/10 Дифференциал $\OML/cmm/m/it/10 n$\TU/TimesNewR
-omanCyr(0)/m/n/10 -ого порядка называется дифференциал от дифференциала $\OML/c
-mm/m/it/10 n \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1$ \TU/TimesNewRomanCyr(0)/m/
-n/10 порядка $\OML/cmm/m/it/10 @[]y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 @\OT1/cm
-r/m/n/10 (\OML/cmm/m/it/10 @[]y\OT1/cmr/m/n/10 ) = 
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 13.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 14.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 20.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 20.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 20.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 20.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 22.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 22.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 22.
+
+
+Overfull \hbox (13.2887pt too wide) in paragraph at lines 26--27
+[]\TU/TimesNewRomanCyr(0)/b/n/12 левой (левосторонней) $\OML/cmm/m/it/12 ^^N$\T
+U/TimesNewRomanCyr(0)/b/n/12 -окрестностью точки $\OML/cmm/m/it/12 x[]$ \TU/Tim
+esNewRomanCyr(0)/m/n/12 называют полуинтервал $\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
+2 x[] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 ^^N;  x[]\OT1/cmr/m/n/12 ]\OML/cmm/
+m/it/12 ;  ^^N > 
  []
 
-File: /root/BMSTU/forMyDocs/preamb/bw2.png Graphic file (type bmp)
-</root/BMSTU/forMyDocs/preamb/bw2.png>
 [2]
-File: /root/BMSTU/forMyDocs/preamb/bw2.png Graphic file (type bmp)
-</root/BMSTU/forMyDocs/preamb/bw2.png>
- [3]
-File: /root/BMSTU/forMyDocs/preamb/bw2.png Graphic file (type bmp)
-</root/BMSTU/forMyDocs/preamb/bw2.png>
- [4]
-File: /root/BMSTU/forMyDocs/preamb/bw2.png Graphic file (type bmp)
-</root/BMSTU/forMyDocs/preamb/bw2.png>
- [5] (./matan_rk2.aux)
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+LaTeX Font Warning: Command \large invalid in math mode on input line 48.
 
-Package rerunfilecheck Info: File `matan_rk2.out' has not changed.
-(rerunfilecheck)             Checksum: 2C5BAE5E5C188029711C40D34A3143D6;15537.
- ) 
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 48.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 48.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 50.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 50.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 50.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 52.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 52.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 52.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 53.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 53.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 53.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 53.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 53.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 53.
+
+[3]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 56.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 56.
+
+Missing character: There is no т ("442) in font cmmi12!
+Missing character: There is no е ("435) in font cmmi12!
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 56.
+
+
+Overfull \hbox (16.54453pt too wide) in paragraph at lines 56--57
+\TU/TimesNewRomanCyr(0)/m/n/12 если для любого $\OML/cmm/m/it/12 " > \OT1/cmr/m
+/n/12 0$ \TU/TimesNewRomanCyr(0)/m/n/12 существует $\OML/cmm/m/it/12 ^^N \OT1/c
+mr/m/n/12 = \OML/cmm/m/it/12 ^^N\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 "\OT1/cmr/m/n
+/12 ) \OML/cmm/m/it/12 > \OT1/cmr/m/n/12 0$ \TU/TimesNewRomanCyr(0)/m/n/12 тако
+е, что при любом $\OML/cmm/m/it/12 x \OMS/cmsy/m/n/12 2 []  \OT1/cmr/m/n/12 (\O
+ML/cmm/m/it/12 :: x[] < 
+ []
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 58.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 58.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 58.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 59.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 59.
+
+Missing character: There is no т ("442) in font cmmi12!
+Missing character: There is no е ("435) in font cmmi12!
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 59.
+
+
+Overfull \hbox (8.15791pt too wide) in paragraph at lines 59--60
+\TU/TimesNewRomanCyr(0)/m/n/12 ли для любого $\OML/cmm/m/it/12 " > \OT1/cmr/m/n
+/12 0$ \TU/TimesNewRomanCyr(0)/m/n/12 существует $\OML/cmm/m/it/12 ^^N \OT1/cmr
+/m/n/12 = \OML/cmm/m/it/12 ^^N\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 "\OT1/cmr/m/n/1
+2 ) \OML/cmm/m/it/12 > \OT1/cmr/m/n/12 0$ \TU/TimesNewRomanCyr(0)/m/n/12 такое,
+ что при любом $\OML/cmm/m/it/12 x \OMS/cmsy/m/n/12 2 []\OML/cmm/m/it/12 ;   \O
+T1/cmr/m/n/12 (\OML/cmm/m/it/12 :: x[] \OMS/cmsy/m/n/12 ^^@ 
+ []
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 61.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 61.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 61.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 67.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 68.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 68.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 69.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 69.
+
+[4]
+Overfull \hbox (1.56146pt too wide) in paragraph at lines 72--72
+[]\TU/TimesNewRomanCyr(0)/m/n/12 Функцию $\OML/cmm/m/it/12 ^^K\OT1/cmr/m/n/12 (
+\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$ \TU/TimesNewRomanCyr(0)/m/n/12 называют \T
+U/TimesNewRomanCyr(0)/b/n/12 бесконечно малой более высокого порядка \TU/TimesN
+ewRomanCyr(0)/m/n/12 малости по срав- 
+ []
+
+[5]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 97.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 98.
+
+
+Overfull \hbox (30.6397pt too wide) in paragraph at lines 98--99
+[]\TU/TimesNewRomanCyr(0)/m/n/12 Если $\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/
+cmm/m/it/12 x\OT1/cmr/m/n/12 )$ \TU/TimesNewRomanCyr(0)/m/n/12 определена в пра
+восторонней окрестности точки $\OML/cmm/m/it/12 x[]$ \TU/TimesNewRomanCyr(0)/m/
+n/12 и если $\OMS/cmsy/m/n/12 9 [] []$\TU/TimesNewRomanCyr(0)/m/n/12 , 
+ []
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 99.
+
+
+Overfull \hbox (26.09868pt too wide) in paragraph at lines 99--100
+[]\TU/TimesNewRomanCyr(0)/m/n/12 Если $\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/
+cmm/m/it/12 x\OT1/cmr/m/n/12 )$ \TU/TimesNewRomanCyr(0)/m/n/12 определена в лев
+осторонней окрестности точки $\OML/cmm/m/it/12 x[]$\TU/TimesNewRomanCyr(0)/m/n/
+12 , и если $\OMS/cmsy/m/n/12 9 [] []$\TU/TimesNewRomanCyr(0)/m/n/12 , 
+ []
+
+
+Overfull \hbox (6.16765pt too wide) in paragraph at lines 99--100
+\TU/TimesNewRomanCyr(0)/m/n/12 то этот предел называется \TU/TimesNewRomanCyr(0
+)/b/n/12 левой производной функции $\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm
+/m/it/12 x\OT1/cmr/m/n/12 )$ \TU/TimesNewRomanCyr(0)/b/n/12 в $\OML/cmm/m/it/12
+ x[]$ \TU/TimesNewRomanCyr(0)/m/n/12 и обозначается $\OML/cmm/m/it/12 f[]\OT1/c
+mr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\TU/TimesNewRomanCyr(0)/m/n/12 .
+  
+ []
+
+[6]
+Overfull \hbox (16.82391pt too wide) in paragraph at lines 112--113
+[]\TU/TimesNewRomanCyr(0)/m/n/12 Точка $\OML/cmm/m/it/12 x[]$ \TU/TimesNewRoman
+Cyr(0)/m/n/12 называется \TU/TimesNewRomanCyr(0)/b/n/12 точкой строгого локальн
+ого минимума \TU/TimesNewRomanCyr(0)/m/n/12 функции $\OML/cmm/m/it/12 f\OT1/cmr
+/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\TU/TimesNewRomanCyr(0)/m/n/12 , е
+сли $\OMS/cmsy/m/n/12 9[][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12
+ )$\TU/TimesNewRomanCyr(0)/m/n/12 , 
+ []
+
+
+Overfull \hbox (21.73407pt too wide) in paragraph at lines 113--114
+[]\TU/TimesNewRomanCyr(0)/m/n/12 Точка $\OML/cmm/m/it/12 x[]$ \TU/TimesNewRoman
+Cyr(0)/m/n/12 называется \TU/TimesNewRomanCyr(0)/b/n/12 точкой строгого локальн
+ого максимума \TU/TimesNewRomanCyr(0)/m/n/12 функции $\OML/cmm/m/it/12 f\OT1/cm
+r/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\TU/TimesNewRomanCyr(0)/m/n/12 , 
+если $\OMS/cmsy/m/n/12 9[][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/1
+2 )$\TU/TimesNewRomanCyr(0)/m/n/12 , 
+ []
+
+[7]
+Overfull \hbox (6.631pt too wide) in paragraph at lines 117--119
+[]\TU/TimesNewRomanCyr(0)/m/n/12 Точку $\OML/cmm/m/it/12 x[]$ \TU/TimesNewRoman
+Cyr(0)/m/n/12 из области определения функции $\OML/cmm/m/it/12 f\OT1/cmr/m/n/12
+ (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$ \TU/TimesNewRomanCyr(0)/m/n/12 называют 
+\TU/TimesNewRomanCyr(0)/b/n/12 стационарной\TU/TimesNewRomanCyr(0)/m/n/12 , есл
+и $\OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 ) =
+ 
+ []
+
+[8]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 136.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 136.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 136.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 136.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 136.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 136.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 138.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 138.
+
+[9]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 146.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 146.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 146.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 146.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 146.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 146.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 146.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 146.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 146.
+
+[10]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 154.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 154.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 154.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 154.
+
+[11]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 162.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 162.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 162.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 165.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 165.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 165.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 166.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 166.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 166.
+
+[12] [13]
+Overfull \hbox (5.71645pt too wide) in paragraph at lines 180--181
+[]\TU/TimesNewRomanCyr(0)/m/n/12 Пусть для всех $\OML/cmm/m/it/12 x$ \TU/TimesN
+ewRomanCyr(0)/m/n/12 из некоторой проколотой окрестности $[]\OT1/cmr/m/n/12 (\O
+ML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 )$ \TU/TimesNewRomanCyr(0)/m/n/12 точки $\OML
+/cmm/m/it/12 x[]$ \TU/TimesNewRomanCyr(0)/m/n/12 выполняется двой- 
+ []
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 184.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 184.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 184.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 184.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 184.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 184.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 184.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 184.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 184.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 184.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 186.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 186.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 186.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 186.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 186.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 190.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 190.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 190.
+
+[14]
+Missing character: There is no б ("431) in font cmmi8!
+Missing character: There is no м ("43C) in font cmmi8!
+Missing character: There is no п ("43F) in font cmmi8!
+Missing character: There is no р ("440) in font cmmi8!
+Missing character: There is no и ("438) in font cmmi8!
+Missing character: There is no б ("431) in font cmmi8!
+Missing character: There is no м ("43C) in font cmmi8!
+Missing character: There is no п ("43F) in font cmmi8!
+Missing character: There is no р ("440) in font cmmi8!
+Missing character: There is no и ("438) in font cmmi8!
+Missing character: There is no б ("431) in font cmmi8!
+Missing character: There is no м ("43C) in font cmmi8!
+Missing character: There is no п ("43F) in font cmmi8!
+Missing character: There is no р ("440) in font cmmi8!
+Missing character: There is no и ("438) in font cmmi8!
+[15] [16]
+File: ../../img/sinx.png Graphic file (type bmp)
+<../../img/sinx.png>
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 222.
+
+Missing character: There is no с ("441) in font cmmi8!
+Missing character: There is no е ("435) in font cmmi8!
+Missing character: There is no к ("43A) in font cmmi8!
+Missing character: There is no т ("442) in font cmmi8!
+Missing character: There is no о ("43E) in font cmmi8!
+Missing character: There is no р ("440) in font cmmi8!
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 224.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 224.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 224.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 224.
+
+[17]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 240.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 240.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 242.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 248.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 248.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 248.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 248.
+
+[18]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 254.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 255.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 255.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 257.
+
+[19]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 263.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 265.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 269.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 269.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 271.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 271.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 271.
+
+[20]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 279.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 285.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 288.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 288.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 289.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 289.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 289.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 289.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 289.
+
+[21]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 301.
+
+[22] [23]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 329.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 338.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 338.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 338.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 338.
+
+[24] [25] [26]
+Overfull \hbox (25.71915pt too wide) in paragraph at lines 372--373
+\TU/TimesNewRomanCyr(0)/m/n/12 конечный предел функции и он совпадает с значени
+ем функции в этой точке, т.е. $\OMS/cmsy/m/n/12 9 [] \OML/cmm/m/it/12 f\OT1/cmr
+/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = 
+ []
+
+[27] [28]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 423.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 426.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 427.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 432.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 436.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 437.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 443.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 445.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 445.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 448.
+
+[29] [30]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 478.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 478.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 478.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 478.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 482.
+
+[31] [32] [33] [34]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 535.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 535.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 535.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 543.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 543.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 547.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 547.
+
+[35]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 558.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 558.
+
+[36]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 566.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 570.
+
+[37] [38]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 602.
+
+[39] [40]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 684.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 685.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 690.
+
+[41]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 714.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 715.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 720.
+
+[42]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 733.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 735.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 735.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 748.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 748.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 748.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 748.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 756.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 756.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 759.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 759.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 766.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 766.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 768.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 768.
+
+[43]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 784.
+
+[44]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 801.
+
+[45]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 833.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 835.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 835.
+
+[46]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 849.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 851.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 853.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 854.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 855.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 858.
+
+[47]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 860.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 860.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 860.
+
+[48]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 870.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 870.
+
+[49]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 884.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 884.
+
+[50]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 890.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 890.
+
+! Misplaced alignment tab character &.
+l.894 ...)^{n}\cdot n!$$ Таким образом, получаем &
+                                                  gt; $$ln(1 + x) = x - \fra...
+ 
 Here is how much of TeX's memory you used:
- 32979 strings out of 476191
- 691121 string characters out of 5812071
- 1111038 words of memory out of 5000000
- 53113 multiletter control sequences out of 15000+600000
- 474541 words of font info for 73 fonts, out of 8000000 for 9000
+ 33630 strings out of 476191
+ 702984 string characters out of 5812071
+ 1134308 words of memory out of 5000000
+ 53746 multiletter control sequences out of 15000+600000
+ 483174 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 115i,15n,111p,793b,590s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on matan_rk2.pdf (5 pages).
+ 115i,15n,111p,885b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on MA_exam.pdf (50 pages).

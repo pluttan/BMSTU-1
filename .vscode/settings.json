@@ -112,8 +112,9 @@
     "code-runner.defaultLanguage": "tex",
     "code-runner.saveAllFilesBeforeRun": true,
     "code-runner.runInTerminal": false,
+    "code-runner.ignoreSelection": true,
     "code-runner.executorMap": {
-        "tex": "~/cerTex '$dir$fileName'"
+        "tex": "cerTex '$dir$fileName'"
     },
     "code-runner.executorMapByFileExtension": {
         ".tex": "cerTex '$dir$fileName'",
