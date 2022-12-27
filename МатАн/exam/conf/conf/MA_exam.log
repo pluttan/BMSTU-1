@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.12.27)  27 DEC 2022 13:06
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.12.27)  27 DEC 2022 13:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1987,16 +1987,101 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 890.
 
-! Misplaced alignment tab character &.
-l.894 ...)^{n}\cdot n!$$ Таким образом, получаем &
-                                                  gt; $$ln(1 + x) = x - \fra...
- 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 901.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 901.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 901.
+
+
+Overfull \hbox (2.27206pt too wide) detected at line 908
+\OT1/cmr/m/n/12 (1 + \OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )[] = 1 + []\OML/cmm/m/i
+t/12 x \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + []\OML/cmm/m/
+it/12 x[] \OT1/cmr/m/n/12 + []\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + \OML/cmm/m
+/it/12 :::
+ []
+
+[51]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 927.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 930.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 956.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 957.
+
+[52]
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+[53]
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no − (U+2212) in font Times New Roman Cyr/OT:langua
+ge=dflt;mapping=tex-text;!
+[54] [55
+
+] (./MA_exam.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+Package rerunfilecheck Warning: File `MA_exam.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `MA_exam.out':
+(rerunfilecheck)             Before: C0BC5C77B4FECEF0A852F4B13B570D72;20656
+(rerunfilecheck)             After:  29B002680BF495DC351C42AEC364AB01;25372.
+ ) 
 Here is how much of TeX's memory you used:
- 33630 strings out of 476191
- 702984 string characters out of 5812071
+ 33634 strings out of 476191
+ 703038 string characters out of 5812071
  1134308 words of memory out of 5000000
- 53746 multiletter control sequences out of 15000+600000
+ 53748 multiletter control sequences out of 15000+600000
  483174 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 115i,15n,111p,885b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on MA_exam.pdf (50 pages).
+ 115i,15n,111p,1121b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on MA_exam.pdf (55 pages).

@@ -1223,6 +1223,7 @@ $$\dots$$
 $$f^{(n)}(x) = \frac{(n - 1)!}{(1 + x)^n}\cdot (-1)^{n - 1}, \ f^{(n)}(0)=(-1)^{n-1}(n-1)! $$
 $$f^{(n+1)}(x) = \frac{n!}{(1 + x)^{n+1}}\cdot (-1)^{n}, \ f^{(n+1)}(0)=(-1)^{n}\cdot n!$$
 Таким образом, получаем
+
 > $$ln(1 + x) = x - \frac{x^2}{2}+ \frac{x^3}{3}- \frac{x^4}{4}+ \frac{x^5}{5} + ... + (-1)^{n - 1}\cdot \frac{x^n}{n} + \underbrace{(-1)^n\frac{x^{n+1}}{(n+1)(1 + \theta x)^{n+1}}}_{\text{остаточный \ член}}, $$
 > 
 > $$ \theta \in (0, 1)$$
@@ -1238,6 +1239,7 @@ $$f^{(n)}(x) = a\cdot(a - 1)\cdot(a-2)\cdot...\cdot(a - (n - 1))\cdot (1+x)^{a-n
 $$ f^{(n)}(0) = a\cdot(a - 1)\cdot(a-2)\cdot...\cdot(a - (n - 1))$$
 
 Таким образом, получаем
+
 > $$(1+x)^a = 1 + \frac{a}{1!}x + \frac{a(a-1)}{2!}x^2+ \frac{a(a-1)(a-2)}{3!}x^3+ \frac{a(a-1)(a-2)(a-3)}{4!}x^4+...$$
 > 
 > $$+\frac{a(a-1)(a-2)...(a-(n-1))}{n!}x^n + \underbrace{\frac{a(a-1)...(a -n)}{(n+1)!}\cdot (1+\theta x)^{a-(n+1)}\cdot x^{n + 1}}_{\text{остаточный \ член}},$$
