@@ -1,20 +1,15 @@
 
 
-! LaTeX Error: \usepackage before \documentclass.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \usepackage{
-                titlesec} 
+! Undefined control sequence.
+l.25 \setitalicfont
+                   {GOST 2.304} 
 Here is how much of TeX's memory you used:
- 28 strings out of 476191
- 982 string characters out of 5812071
- 298136 words of memory out of 5000000
- 20865 multiletter control sequences out of 15000+600000
- 469259 words of font info for 28 fonts, out of 8000000 for 9000
+ 33371 strings out of 476191
+ 697066 string characters out of 5812071
+ 1128915 words of memory out of 5000000
+ 53551 multiletter control sequences out of 15000+600000
+ 470939 words of font info for 45 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 20i,0n,28p,165b,18s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,2n,111p,1382b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 No pages of output.
