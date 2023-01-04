@@ -1,7 +1,4 @@
 <!-- ~whodo fiixii, pluttan -->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
 
 # Подготовка к экзамену : Математический анализ
 
@@ -69,15 +66,15 @@ $(x_0 - \delta,\ x_0], \ \delta > 0$.
 1.  Последовательность чисел $\{X_n\}$ называется **убывающей**, если $x_{n+1} < x_n, \ \forall\ n \in \mathbb{N}$.
 
 1.  Неубывающие, невозрастающие, убывающие и возрастающие последовательности называют **монотонными**.
-1.  Последовательность называется **постоянной**, если $ \forall n \in \mathbb{N}: \ x_n = c, \ c \in \mathbb{R}$.
+1.  Последовательность $\{X_n\}$ называется **постоянной**, если $ \forall n \in \mathbb{N}: \ x_n = c, \ c \in \mathbb{R}$.
 
 1.  Последовательность $\{X_n\}$ называется **ограниченной сверху**, если $\exists M \in \mathbb{R}$, такое, что $\forall n \in \mathbb{N}: \ x_n \leqslant M$. 
 
 1.  Последовательность $\{X_n\}$ называется **ограниченной снизу**, если $\exists M \in \mathbb{R}$, такое, что $\forall n \in \mathbb{N}: \ x_n \geqslant M$.
 
-1.  Последовательность, ограниченная и сверху и снизу, называют **ограниченной**: $\exists M > 0, \ M \in \mathbb{R}$, такое, что $\forall n \in \mathbb{N}: \ | x_n|  \leqslant M$. 
+1.  Последовательность $\{X_n\}$, ограниченная и сверху и снизу, называют **ограниченной**: $\exists M > 0, \ M \in \mathbb{R}$, такое, что $\forall n \in \mathbb{N}: \ | x_n|  \leqslant M$. 
 
-1.  Число $a$ называется **пределом числовой последовательности** $\{X_n\}$, если для любого, сколь угодно малого положительного ${\varepsilon}$ существует такой номер $N$, зависящий от ${\varepsilon}$, что для всех $n > N$ выполняется неравенство $| a - x_n|  < {\varepsilon}$.
+1.  Число $a$ называется **пределом числовой последовательности** $\{X_n\}$, если для любого, сколь угодно малого положительного ${\varepsilon}$ существует такой номер $N$, зависящий от ${\varepsilon}$, что для всех $n > N$ выполняется неравенство $|x_n - a|  < {\varepsilon}$.
 
     $$\lim\limits_{n \to \infty}x_n = a \iff \forall {\varepsilon}>0 \ \ \exists N = N({\varepsilon}) \in \mathbb{N}: \ \forall n > N \Rightarrow | x_n - a|  < {\varepsilon}
     $$
@@ -88,12 +85,12 @@ $(x_0 - \delta,\ x_0], \ \delta > 0$.
 существует номер $N = N({\varepsilon})$ такой, что при любых $m \geqslant N$ и $n \geqslant N$ выполняется
 неравенство $| x_m - x_n|  < {\varepsilon}$. 
 
-1. Число $a$ называется **пределом функции** $f(x)$ при $x \rightarrow x_0$, если для любого ${\varepsilon} > 0$ существует положительное число $\delta = \delta ({\varepsilon})$ такое, что для любого $x \in \overset{\circ}U_\delta(x_0)$ выполняется неравенство $| f(x) - a|  < {\varepsilon}$ (определение по Коши). 
+1. (определение по Коши) Число $a$ называется **пределом функции** $f(x)$ при $x \rightarrow x_0$, если для любого ${\varepsilon} > 0$ существует положительное число $\delta = \delta ({\varepsilon})$ такое, что для любого $x \in \overset{\circ}U_\delta(x_0)$ выполняется неравенство $| f(x) - a|  < {\varepsilon}$. 
 
     $$\lim\limits_{x \to x_0} f(x) = a \iff \forall{\varepsilon} > 0 \ \ \exists \delta = \delta({\varepsilon}) > 0 : \ \forall x \in \overset{\circ}U_\delta(x_0) \Rightarrow | f(x) - a|  < {\varepsilon}
     $$
 
-2. Число $a$ называется **пределом функции** $f(x)$ при $x \rightarrow x_0$, если для любой последовательности $\{X_n\}$ точек из $\overset{\circ}U(x_0)$, для которой $\lim\limits_{n \to \infty}x_n = x_0$, выполняется равенство $\lim\limits_{n \to \infty}\{f(x_n)\} = a$ (определение по Гейне).
+2. (определение по Гейне) Число $a$ называется **пределом функции** $f(x)$ при $x \rightarrow x_0$, если для любой последовательности $\{X_n\}$ точек из $\overset{\circ}U(x_0)$, для которой $\lim\limits_{n \to \infty}x_n = x_0$, выполняется равенство $\lim\limits_{n \to \infty}\{f(x_n)\} = a$.
 
     $$\lim\limits_{x \to x_0}f(x) = a \iff \{\forall x_n \in \overset{\circ}U(x_0), \ n \in \mathbb{N}\} \ \cap \ \lim\limits_{n \to \infty}{x_n} = x_0 : \ 
     \lim\limits_{n \to \infty}\{f(x_n)\} = a
@@ -122,7 +119,7 @@ $(x_0 - \delta,\ x_0], \ \delta > 0$.
 
 6. $\lim\limits_{x \to 0} {\dfrac{sin(x)}{x}} = 1$ - **первый замечательный предел**.
 
-7. $\lim\limits_{x \to \infty} \bigg(1 + {\dfrac{1}{x}}\bigg)^{ x}$ - **второй замечательный предел**.
+7. $\lim\limits_{x \to \infty} \bigg(1 + {\dfrac{1}{x}}\bigg)^{x} = e$ - **второй замечательный предел**.
 
 
 8. Функции $\alpha(x)$ и $\beta(x)$ называют **сравнимыми** бесконечно малыми при $x \rightarrow x_0$, если существует хотя бы один из пределов $\lim\limits_{x \to x_0} { \dfrac{\alpha(x)}{\beta(x)}}$ или $\lim\limits_{x \to x_0} { \dfrac{\beta(x)}{\alpha(x)}}$.
@@ -193,11 +190,11 @@ $(x_0 - \delta,\ x_0], \ \delta > 0$.
 
 31. Если $f(x)$ определена в правосторонней окрестности точки $x_0$ и если 
 
-    $\exists \lim\limits_{\Delta x \to 0+}{\dfrac{f(x_0+\Delta x) - f(x_0)}{\Delta x}}$, то этот предел называется **правой производной функции $f(x)$ в $x_0$** и обозначается $f'_+(x)$.
+    $\exists \lim\limits_{\Delta x \to 0+}{\dfrac{f(x_0+\Delta x) - f(x_0)}{\Delta x}}$, то этот предел называется **правой производной функции $f(x)$ в $x_0$** и обозначается $f'_+(x_0)$.
 
 32. Если $f(x)$ определена в левосторонней окрестности точки $x_0$, и если 
 
-    $\exists \lim\limits_{\Delta x \to 0-}{\dfrac{f(x_0+\Delta x) - f(x_0)}{\Delta x}}$, то этот предел называется **левой производной функции $f(x)$ в $x_0$** и обозначается $f'_-(x)$.
+    $\exists \lim\limits_{\Delta x \to 0-}{\dfrac{f(x_0+\Delta x) - f(x_0)}{\Delta x}}$, то этот предел называется **левой производной функции $f(x)$ в $x_0$** и обозначается $f'_-(x_0)$.
 
 33. Пусть функция $y = f(x)$ определена в некоторой окрестности точки $x_0$. Функция называется **дифференцируемой в точке $x_0$**, если ее приращение $\Delta y$ в точке $x_0$ представимо в следующем виде: $\Delta y = A\Delta x + \alpha(\Delta x)\Delta x$, где $A$ - некоторое число, не зависящее от $\Delta x$, а $\lim\limits_{\Delta x \to 0}\alpha(\Delta x) = 0$.
 
@@ -215,7 +212,7 @@ $(x_0 - \delta,\ x_0], \ \delta > 0$.
 
 7. Функция $f(x)$ называется **неубывающей на интервале** $(a, b)$, если $\forall x_1, x_2 \in (a, b)$, таких что $x_2 > x_1$, выполняется неравенство $f(x_2)\geqslant f(x_1)$.
 
-8. Функция $f(x)$ называется **монотонной**, если она невозрастающая или неубывающая.
+8. Неубывающие, невозрастающие, убывающие и возрастающие функции называют **монотонными**.
 
 9. Функция $f(x)$ называется **строго монотонной**, если она возрастающая или убывающая.
 
@@ -239,15 +236,15 @@ $(x_0 - \delta,\ x_0], \ \delta > 0$.
 
 19. Прямая $x = a$ называется **вертикальной асимптотой** графика функции $y = f(x)$, если хотя бы один из пределов $\lim\limits_{x \to a+(-)}f(x) = \infty$ 
 
-1. Прямая $y = kx + b$ называется **правой наклонной асимптотой** графика функции $y = f(x)$, если эту функцию можно представить в виде $f(x) = kx + b + \alpha(x)$, где $k, b \in \mathbb{R}$ и $\alpha(x)$ - бесконечно малая функция при $x \rightarrow +\infty$.
+1. Прямая $y = kx + b$ называется **правой наклонной асимптотой** графика функции $y = f(x)$, если эту функцию можно представить в виде $f(x) = kx + b + \alpha(x)$  при $x \rightarrow +\infty$, где $k, b \in \mathbb{R}$ и $\alpha(x)$ - бесконечно малая функция.
 
-2. Прямая $y = kx + b$ называется **левой наклонной асимптотой** графика функции $y = f(x)$, если эту функцию можно представить в виде $f(x) = kx + b + \alpha(x)$, где $k, b \in \mathbb{R}$ и $\alpha(x)$ - бесконечно малая функция при $x \rightarrow -\infty$.
+2. Прямая $y = kx + b$ называется **левой наклонной асимптотой** графика функции $y = f(x)$, если эту функцию можно представить в виде $f(x) = kx + b + \alpha(x)$  при $x \rightarrow -\infty$, где $k, b \in \mathbb{R}$ и $\alpha(x)$ - бесконечно малая функция.
 
 3. Пусть функция $f(x)$ дифференцируема на интервале $(a, b)$. График функции $y = f(x)$ имеет на интервале $(a, b)$ **выпуклость вверх**, если он лежит не выше любой касательной к графику на (a, b).
 
 4. Пусть функция $f(x)$ дифференцируема на интервале $(a, b)$. График функции $y = f(x)$ имеет на интервале $(a, b)$ **выпуклость вниз**, если он лежит не ниже любой касательной к графику на (a, b).
 
-5. Точка $x_0 \in (a,b)$ называется точкой перегиба функции $f(x)$, если эта функция непрерывна в точке $x_0$ и если $\exists \delta > 0$ такое, что направления выпуклостей функции $f(x)$ на интервалах $(x_0-\delta; x_0)$ и $(x_0; x_0+\delta)$ различны.
+5. Точка $x_0 \in (a,b)$ называется **точкой перегиба** функции $f(x)$, если эта функция непрерывна в точке $x_0$ и если $\exists \delta > 0$ такое, что направления выпуклостей функции $f(x)$ на интервалах $(x_0-\delta; x_0)$ и $(x_0; x_0+\delta)$ различны.
 
 
 <!-- ?\newpage -->
@@ -308,11 +305,11 @@ $$
 Пусть $\{X_n\}$ - сходящаяся последовательность. Тогда по определению, у нее существует конечный предел 
 
 $$
-\lim\limits_{n \to \infty}x_n = a \iff \forall {\varepsilon} > 0 \ \exists N = N({\varepsilon})\in \mathbb{N}: \ \forall n > \mathbb{N} \Rightarrow | x_n - a|  < {\varepsilon},
+\lim\limits_{n \to \infty}x_n = a \iff \forall {\varepsilon} > 0 \ \exists N = N({\varepsilon})\in \mathbb{N}: \ \forall n > N \Rightarrow | x_n - a|  < {\varepsilon},
 $$
 
 $$
--{\varepsilon}+a < x_n < {\varepsilon} + a
+-{\varepsilon}+a < x_n < {\varepsilon} + a, \ \forall n > N
 $$
 
 Обозначим через $A$ максимальное число среди $| x_1| , | x_2| , ..., | x_n| , | a-{\varepsilon}| , | a + {\varepsilon}| $, т.е.
@@ -351,7 +348,7 @@ $$
 Пусть ${\varepsilon} = 1$, тогда $| f(x)|  - | a|  \leqslant | f(x) - a|  < 1$, а значит
 
 $$
-\forall x \in \overset{\circ}U_\delta(x_0) \Rightarrow | f(x)|  <1 + | A|  = const \overset{\text{по опр.}}{\Rightarrow}$$ 
+\forall x \in \overset{\circ}U_\delta(x_0) \Rightarrow | f(x)|  <1 + |a|  = const \overset{\text{по опр.}}{\Rightarrow}$$ 
 
 $f(x)$ является локально ограниченной в окрестности точки $x_0$. 
 
@@ -378,20 +375,17 @@ $$
 $$
 
 * в случае $a > 0$ выбираем ${\varepsilon} = {\dfrac{a}{2}}$, тогда 
-
-    $$| f(x) - a|  < {\dfrac{a}{2}}
-    $$$$-{\dfrac{a}{2}}< f(x) - a < {\dfrac{a}{2}}
-    $$$${\dfrac{a}{2}}< f(x) < {\dfrac{3a}{2}}
-    $$
+    $$| f(x) - a|  < {\dfrac{a}{2}}$$
+    $$-{\dfrac{a}{2}}< f(x) - a < {\dfrac{a}{2}}$$
+    $${\dfrac{a}{2}}< f(x) < {\dfrac{3a}{2}}$$
 
     Следовательно $f(x) > {\dfrac{a}{2}}>0$, т.е. данная функция положительна при $x \in \overset{\circ}U_\delta(x_0)$.
 
 * в случае $a < 0$ выбираем ${\varepsilon} = -{\dfrac{a}{2}}$, тогда 
     
-    $$| f(x) - a|  < - {\dfrac{a}{2}}
-    $$$${\dfrac{a}{2}}< f(x) - a < -{\dfrac{a}{2}}
-    $$$${\dfrac{3a}{2}}< f(x) < {\dfrac{a}{2}}
-    $$
+    $$| f(x) - a|  < - {\dfrac{a}{2}}$$
+    $${\dfrac{a}{2}}< f(x) - a < -{\dfrac{a}{2}}$$
+    $${\dfrac{3a}{2}}< f(x) < {\dfrac{a}{2}}$$
 
     Следовательно $f(x) < {\dfrac{a}{2}}< 0$, т.е. данная функция отрицательна при $x \in \overset{\circ}U_\delta(x_0)$. 
 
@@ -555,7 +549,9 @@ $$
 пересекающую ось абсцисс в точке $A$, и пусть угол $\angle AOB$ равен $x$ (радиан). Пусть, далее,
 $CA$ — перпендикуляр к этой оси, $C$ — точка пересечения с этим перпендикуляром продолжения отрезка $OB$ за точку $B$. Тогда
 
-$$S_{\triangle OAB} < S_{сектор \ OAB} < S_{\triangle OAC}$$
+![120](img/sinx.png)
+
+$$S_{\triangle OAB} < S_{\sector OAB} < S_{\triangle OAC}$$
 $$\dfrac{1}{2}R^2sin(x) <\dfrac{1}{2}R^2x < \dfrac{1}{2}R^2tg(x)$$
 $$sin(x) < x < tg(x)$$
 $$1 < \dfrac{x}{sin(x)} < \dfrac{1}{cos(x)}$$
@@ -689,7 +685,7 @@ $$
 Пусть $f(x)$ - бесконечно большая функция при  $x \rightarrow x_0$. Выберем произвольное ${\varepsilon} > 0$. Тогда 
 
 $$
-\text{для } E = \dfrac{1}{{\varepsilon}} \ \ \exists \overset{\circ}U(x_0): \ \forall x \in \overset{\circ}U(x_0) \Rightarrow |f(x)| > E, \text{ т.е.}
+\text{для } E = \dfrac{1}{{\varepsilon}} > 0 \ \ \exists \overset{\circ}U(x_0): \ \forall x \in \overset{\circ}U(x_0) \Rightarrow |f(x)| > E, \text{ т.е.}
 $$
 $$
 \dfrac{1}{f(x)} < \dfrac{1}{E} = {\varepsilon}, \overset{\text{по опр.}}\Rightarrow \dfrac{1}{f(x)} \text{ - бесконечно малая функция при } x \rightarrow x_0 
@@ -838,7 +834,7 @@ $$\exists\lim\limits_{x \to x_0}g(x) = g(x_0)$$
 *Доказательство*
 
 По условию функция $y = f(x)$ непрерывна в точке $x = a$, функция $g(y)$ непрерывна в точке $b = f(a)$. Тогда по определению 
-$$\exists\lim\limits_{x \to a}f(x) = f(a)$$
+$$\exists\lim\limits_{x \to a}f(x) = f(a) = b$$
 $$\exists\lim\limits_{y \to b}g(y) = g(b)$$
 
 Тогда
@@ -904,7 +900,7 @@ $$
 Все элементарные функции непрерывны всюду, где они определены.
 
 <!-- ?\vspace*{20pt} -->
-*Доказательство $(\ $для $y = sin(x)$ и $y = cos( x)\ )$*
+*Доказательство $($для $y = sin(x)$ и $y = cos( x))$*
 
 <!-- ?\vspace*{20pt} -->
 Рассмотрим $y = sin(x)$:
@@ -993,8 +989,8 @@ $$
     Пример: $f(x) = {\dfrac{1}{x}}$. Рассмотрим односторонние пределы и значение функции в точке $x = 0$
 
     $$\begin{rcases}
-        \exists\lim\limits_{x \to 0+}{\dfrac{1}{x}} = +\infty\\
-        \exists\lim\limits_{x \to 0-}{\dfrac{1}{x}} = -\infty\\
+        \exists\lim\limits_{x \to 0+}{\dfrac{1}{x}} = +\infty\\\\
+        \exists\lim\limits_{x \to 0-}{\dfrac{1}{x}} = -\infty\\\\
         x = 0 \notin D_f, \text{ т.е. } \nexists f(0) 
     \end{rcases} 
     \Rightarrow \text{ точка }x = 0 \text{ - точка разрыва второго рода.}
@@ -1004,7 +1000,7 @@ $$
 
     Пример: $f(x) = {\dfrac{sin(x)}{x}}$:
 
-    Из соображений выше, точка $x = 0$ является точкой разрыва первого рода функции $f(x)$. При этом, $\lim\limits_{x \to 0+}{\dfrac{sin(x)}{x}} = \lim\limits_{x \to 0-}{\dfrac{sin(x)}{x}} = 1$, тогда по определению, точка $x = 0$ - точка устранимого разрыва первого рода. 
+    Из соображений выше, точка $x = 0$ является точкой разрыва первого рода функции $f(x)$. При этом, $\lim\limits_{x \to 0+}{\dfrac{sin(x)}{x}} = \lim\limits_{x \to 0-}{\dfrac{sin(x)}{x}} = 1 \neq f(0)$, тогда по определению, точка $x = 0$ - точка устранимого разрыва первого рода. 
     
 
     Если доопределить функцию $f(x)$ следующим образом:
@@ -1016,7 +1012,7 @@ $$
     \end{cases}
     $$
 
-    то функция $f(x)$ по определению будет непрерывной.
+    то функция $f(x)$ по определению будет непрерывной в точке x = 0.
 
 5. Если $x_0$ — точка разрыва функции первого рода и односторонние пределы функции в этой точке не равны между собой, то такой разрыв называют **неустранимым**, а точку $x_0$ - **точкой неустранимого разрыва первого рода**.
 
@@ -1067,7 +1063,9 @@ $$
 f(x) = kx+b+\underbrace{\alpha(x)}_{\text{б.м.ф.}},\ \text{при } x \rightarrow +(-)\infty
 $$
 
-Отсюда $\ {\dfrac{f(x)}{x}} = k + {\dfrac{b}{x}} + {\dfrac{\alpha(x)}{x}} \rightarrow k, \ f(x) - kx = b + \alpha(x), $ при $x \rightarrow +(-)\infty$, т.е. $\lim\limits_{x \to +(-)\infty}{\dfrac{f(x)}{x}} = k,  \lim\limits_{x \to +(-)\infty}{\big(f(x) - kx\big)} = b$
+Отсюда $\ {\dfrac{f(x)}{x}} = k + {\dfrac{b}{x}} + {\dfrac{\alpha(x)}{x}}, \ f(x) - kx = b + \alpha(x), $ при $x \rightarrow +(-)\infty$, т.е. 
+
+$\lim\limits_{x \to +(-)\infty}{\dfrac{f(x)}{x}} = k,  \lim\limits_{x \to +(-)\infty}{\big(f(x) - kx\big)} = b$
 
 $(\Leftarrow)$
 
@@ -1076,7 +1074,7 @@ $(\Leftarrow)$
 $$\lim\limits_{x \to +(-)\infty}{\dfrac{f(x)}{x}} = k,$$
 $$\lim\limits_{x \to +(-)\infty}{\big(f(x) - kx\big)} = b$$
 
-тогда по теореме о связи функции, ее предела и бесконечно
+Тогда по теореме о связи функции, ее предела и бесконечно
 малой
 
 $${f(x) - kx} = b + \underbrace{\alpha(x)}_{\text{б.м.ф.}},\ \text{при } x \rightarrow +(-)\infty$$
@@ -1190,7 +1188,7 @@ $$
 <!-- ?\vspace*{20pt} -->
 *Доказательство*
 
-По условию функции $f(x)$ и $g(x)$ дифференцируемы в точке $x = x_0, \Rightarrow$ существуют конечные пределы
+По условию функции $f(x)$ и $g(x)$ дифференцируемы в точке $x, \Rightarrow$ существуют конечные пределы
 
 $$
 \lim\limits_{\Delta x \rightarrow 0}\dfrac{\Delta f}{\Delta x} = f'(x_0), \ \lim\limits_{\Delta x \rightarrow 0}\dfrac{\Delta g}{\Delta x} = g'(x_0)
@@ -1237,10 +1235,10 @@ $$ = f'(x)\cdot g(x) + f(x)\cdot g'(x) $$
 <!-- ?\vspace*{20pt} -->
 *Доказательство*
 
-По условию функции $f(x)$ и $g(x)$ дифференцируемы в точке $x = x_0, \Rightarrow$ существуют конечные пределы
+По условию функции $f(x)$ и $g(x)$ дифференцируемы в точке $x, \Rightarrow$ существуют конечные пределы
 
 $$
-\lim\limits_{\Delta x \rightarrow 0}\dfrac{\Delta f}{\Delta x} = f'(x_0), \ \lim\limits_{\Delta x \rightarrow 0}\dfrac{\Delta g}{\Delta x} = g'(x_0)
+\lim\limits_{\Delta x \rightarrow 0}\dfrac{\Delta f}{\Delta x} = f'(x), \ \lim\limits_{\Delta x \rightarrow 0}\dfrac{\Delta g}{\Delta x} = g'(x)
 $$
 
 Вычислим $\bigg({\dfrac{f(x)}{g(x)}}\bigg)'$:
@@ -1295,15 +1293,17 @@ $$
 
 По условию
 
-* функция $u = g(x)$ дифференцируема в точке $x = x_0,$ тогда по определению существует конечный $\lim\limits_{\Delta x\rightarrow 0}{\dfrac{\Delta u}{\Delta x}} = g'(x_0)$
-* функция $y = f(u)$ дифференцируема в точке $u = u_0,$ тогда по определению существует конечный $\lim\limits_{\Delta u\rightarrow 0}{\dfrac{\Delta y}{\Delta u}} = f'(u_0)$
-* функция $u = g(x)$ дифференцируема в точке $x = x_0, \ \Rightarrow$ Функция $u = g(x)$ непрерывна в точке $x = x_0 \ \overset{\text{по опр.}}{\Rightarrow} \lim\limits_{\Delta x \rightarrow 0}\Delta u = 0, \text{ т.е. } \Delta u \rightarrow 0 \text{ при } \Delta x \rightarrow 0$.
+* функция $u = g(x)$ дифференцируема в точке $x,$ тогда по определению существует конечный $\lim\limits_{\Delta x\rightarrow 0}{\dfrac{\Delta u}{\Delta x}} = g'(x)$
+* функция $y = f(u)$ дифференцируема в точке $u,$ тогда по определению существует конечный $\lim\limits_{\Delta u\rightarrow 0}{\dfrac{\Delta y}{\Delta u}} = f'(u)$
+* функция $u = g(x)$ дифференцируема в точке $x, \ \Rightarrow$ Функция $u = g(x)$ непрерывна в точке $x \ \overset{\text{по опр.}}{\Rightarrow} \lim\limits_{\Delta x \rightarrow 0}\Delta u = 0, \text{ т.е. } \Delta u \rightarrow 0 \text{ при } \Delta x \rightarrow 0$.
 
 Таким образом,
 
 $$
-y'_x=\lim\limits_{\Delta x \rightarrow 0}\dfrac{\Delta y}{\Delta x}=\lim\limits_{\Delta x \rightarrow 0}\dfrac{\Delta y\cdot \Delta u}{\Delta u \cdot \Delta x} = \lim\limits_{\Delta u \rightarrow 0}\dfrac{\Delta y}{\Delta u}\cdot \lim\limits_{\Delta x \rightarrow 0}\dfrac{\Delta u}{\Delta x} = f'(u_0)\cdot g'(x_0)
+y'_x=\lim\limits_{\Delta x \rightarrow 0}\dfrac{\Delta y}{\Delta x}=\lim\limits_{\Delta x \rightarrow 0}\dfrac{\Delta y\cdot \Delta u}{\Delta u \cdot \Delta x} = \lim\limits_{\Delta u \rightarrow 0}\dfrac{\Delta y}{\Delta u}\cdot \lim\limits_{\Delta x \rightarrow 0}\dfrac{\Delta u}{\Delta x} = f'(u)\cdot g'(x)
 $$
+
+Теорема доказана.
 
 <!-- ?\newpage -->
 ### 28. *Теорема (о производной обратной функции)*
@@ -1362,7 +1362,7 @@ $$
 
 <!-- ?\begin{Quote2} -->
 <!-- ?\small\centering --> 
-Используются определения 61, 64, 75 из списка
+Используются определения 61, 62, 63, 64, 75 из списка
 <!-- ?\end{Quote2} -->
 
 
@@ -1377,7 +1377,7 @@ $$
 \exists U_\delta(x_0) : \ \forall x \in U_\delta(x_0) \Rightarrow f(x) \leqslant f(x_0)
 $$
 
-По условию $y = f(x)$ дифференцируема в точке $x = x_0, \ \Rightarrow$ в точке $x = x_0$ существует конечная производная $\lim\limits_{\Delta x \rightarrow 0}{\dfrac{\Delta y}{\Delta x}} = f'(x_0)$
+По условию $y = f(x)$ дифференцируема в точке $x = x_0, \ \Rightarrow$ в точке $x = x_0$ существует конечная производная $\lim\limits_{\Delta x \rightarrow 0}{\dfrac{\Delta y}{\Delta x}} = f'(x_0) = f'_+(x_0) = f'_-(x_0)$
 
 Тогда
 
@@ -1400,11 +1400,11 @@ $$
 По теореме о переходе к пределу в неравенстве
 
 $$
-\text{Если } \Delta x > 0, \text{ то } \lim\limits_{\Delta x \rightarrow 0}{\dfrac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}} = f'(x_0) \leqslant 0
+\text{Если } \Delta x > 0, \text{ то } \lim\limits_{\Delta x \rightarrow 0+}{\dfrac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}} = f'_+(x_0) \leqslant 0
 $$
 
 $$
-\text{Если } \Delta x < 0, \text{ то }\lim\limits_{\Delta x \rightarrow 0}{\dfrac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}} = f'(x_0) \geqslant 0
+\text{Если } \Delta x < 0, \text{ то }\lim\limits_{\Delta x \rightarrow 0-}{\dfrac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}} = f'_-(x_0) \geqslant 0
 $$
 
 Таким образом, $f'(x_0) = 0$. 
@@ -1487,7 +1487,7 @@ $$F(x) = f(x) - \dfrac{f(b) - f(a)}{b - a}\cdot (x - a)$$
 
 2.  
     $$\begin{rcases}
-    F(a) =f(a) - {\dfrac{f(b) - f(a)}{b - a}}\cdot (a - a) = f(a)\\
+    F(a) =f(a) - {\dfrac{f(b) - f(a)}{b - a}}\cdot (a - a) = f(a)\\\\
     F(b) = f(b) - {\dfrac{f(b) - f(a)}{b - a}}\cdot (b - a) = f(a)
     \end{rcases} \Rightarrow F(a) = F(b)
     $$ 
@@ -1535,7 +1535,7 @@ $$
 
 2.  
     $$\begin{rcases}
-        F(a) = f(a) - {\dfrac{f(b) - f(a)}{g(b)-g(a)}}\cdot \big(g(a) - g(a)\big) = f(a)\\
+        F(a) = f(a) - {\dfrac{f(b) - f(a)}{g(b)-g(a)}}\cdot \big(g(a) - g(a)\big) = f(a)\\\\
         F(b) = f(b) - {\dfrac{f(b) - f(a)}{g(b)-g(a)}}\cdot \big(g(b) - g(a)\big) = f(a)
     \end{rcases}
     \Rightarrow F(a) = F(b)
@@ -1635,12 +1635,12 @@ $$
     Так как при $x \rightarrow +\infty$ функции $y  = log_a(x)$ и $y = x^n$ являются бесконечно большими, воспользуемся правилом Лопиталя-Бернулли:
 
     $$\lim\limits_{x \rightarrow +\infty}{\dfrac{ log_a(x)}{x^n}} 
-    = \lim\limits_{x \rightarrow +\infty}{\ \dfrac{\dfrac{1}{x\cdot ln(a)}}{n\cdot x^{n - 1}}} 
+    = \lim\limits_{x \rightarrow +\infty}{\ \dfrac{\frac{1}{x\cdot ln(a)}}{n\cdot x^{n - 1}}} 
     =\dfrac{1}{n\cdot ln(a)}\cdot \lim\limits_{x \rightarrow +\infty}{\ \dfrac{1}{x^{n}}}
     = 0
     $$
 
-    Таким образом, степенная функция $y = a^x$ растет быстрее логарифмической функции $y = x^n$.
+    Таким образом, степенная функция $y = x^n$ растет быстрее логарифмической функции $y  = log_a(x)$.
 
     *Вывод*:
 
@@ -1655,7 +1655,7 @@ $$
 > 
 > $$ \text{ где } \theta \in (0, 1), \ R_{n+1} - \text{ остаточный член в форме Лагранжа}. $$
 
-Пусть $x \in U(x_0)$, и пусть для определенности $x > x_0$. Рассмотрим на отрезке $[x0, x]$ две функции
+Пусть $x \in U(x_0)$, и пусть для определенности $x > x_0$. Рассмотрим на отрезке $[x_0, x]$ две функции
 
 $$
 \varphi(t) = f(x) - \sum\limits_{k=0}^n\dfrac{f^{(k)}(t)}{k!}\cdot (x - t)^k
@@ -1708,10 +1708,10 @@ $$
 
 Далее, $\ \psi'(t) = -(n + 1)\cdot (x - t)^n$
 , и непосредственно видно, что производная $\psi'(t)$ на
-интервале $(x_0, x)$ отлична от нуля. К паре функций $\psi(t)$ и $\varphi(t)$ на отрезке $[x0, x]$ применим теорему Коши. Имеем
+интервале $(x_0, x)$ отлична от нуля. К паре функций $\psi(t)$ и $\varphi(t)$ на отрезке $[x_0, x]$ применим теорему Коши. Имеем
 
 $$
-\dfrac{\varphi(x_0) - \varphi(x)}{\psi(x_0) - \psi(x)} =\dfrac{\varphi'\big(x_0 + \theta(x - x_0)\big)}{\psi'\big(x_0+\theta(x - x_0)\big)} , \text{ где } \theta \in (0, 1).
+\dfrac{\varphi(x_0) - \varphi(x)}{\psi(x_0) - \psi(x)} = \dfrac{\varphi(x_0)}{\psi(x_0)} =\dfrac{\varphi'\big(x_0 + \theta(x - x_0)\big)}{\psi'\big(x_0+\theta(x - x_0)\big)} , \text{ где } \theta \in (0, 1).
 $$
 
 Таким образом, $0 < \theta<1 \ \iff \ 0 < \theta (x - x_0) < x - x_0 \ \iff \ x_0 < x_0 + \theta (x - x_0) < x, \Rightarrow c = x_0 + \theta (x - x_0) \in (x_0, x)$
@@ -1719,7 +1719,7 @@ $$
 Учитывая результаты проведенных вычислений, получаем отсюда:
 
 $$
-\dfrac{f(x) - \sum\limits_{k=0}^n{\dfrac{f^{(k)}(x_0)}{k!}}\cdot (x - x_0)^k}{(x - x_0)^{n + 1}} = - \dfrac{f^{(n + 1)}\big(x_0 + \theta(x - x_0)\big)}{n!}\cdot \big(x - x_0 - \theta(x - x_0)\big)^n\times
+\dfrac{\varphi(x_0)}{\psi(x_0)} = \dfrac{f(x) - \sum\limits_{k=0}^n{\dfrac{f^{(k)}(x_0)}{k!}}\cdot (x - x_0)^k}{(x - x_0)^{n + 1}} = - \dfrac{f^{(n + 1)}\big(x_0 + \theta(x - x_0)\big)}{n!}\cdot \big(x - x_0 - \theta(x - x_0)\big)^n\times
 $$
 $$
 \times \dfrac{1}{-(n + 1)\big(x - x_0 - \theta(x - x_0)\big)^n} = \dfrac{f^{(n+1)}\big(x_0 + \theta(x - x_0)\big)}{(n+1)!},
@@ -1790,12 +1790,12 @@ $$f'(0) = f''(0) = f'''(0) =...=f^{(n)}(0) = 1$$
 <!-- ?\newpage -->
 ### 39. *Формула Маклорена для функции $y = sin(x)$ с остаточным членом в форме Лагранжа*
 
-Найдем производные функции $y = sin(x)$ до $n$-го порядка:
+Найдем производные функции $y = sin(x)$ до $(2n+2)$-го порядка:
 
 $$f(x) = sin(x), \ f(0) = 0$$
 $$f'(x) = cos(x) = sin(x + \dfrac{\pi}{2}), \ f'(0)=1$$
-$$f''(x) = -sin(x) = sin(x + 2\cdot \dfrac{\pi}{2}), \ f'(0)=0$$
-$$f'''(x) = -cos(x) = sin(x + 3\cdot \dfrac{\pi}{2}), \ f'(0) = -1$$
+$$f''(x) = -sin(x) = sin(x + 2\cdot \dfrac{\pi}{2}), \ f''(0)=0$$
+$$f'''(x) = -cos(x) = sin(x + 3\cdot \dfrac{\pi}{2}), \ f'''(0) = -1$$
 $$\dots$$
 $$f^{(2n + 1)}(x) = (-1)^{n}\cdot cos(x), \ f^{(2n + 1)}(0) = (-1)^{n}$$
 $$f^{(2n + 2)}(x) = (-1)^{n+1}\cdot sin(x), \ f^{(2n + 2)}(0) = 0$$
@@ -1810,12 +1810,12 @@ $$f^{(2n + 2)}(x) = (-1)^{n+1}\cdot sin(x), \ f^{(2n + 2)}(0) = 0$$
 <!-- ?\newpage -->
 ### 40. *Формула Маклорена для функции $y = cos(x)$ с остаточным членом в форме Лагранжа*
 
-Найдем производные функции $y = cos(x)$ до $n$-го порядка:
+Найдем производные функции $y = cos(x)$ до $(2n+1)$-го порядка:
 
 $$f(x) = cos(x), \ f(0) = 1$$
 $$f'(x) = -sin(x) = cos(x + \dfrac{\pi}{2}), \ f'(0)=0$$
-$$f''(x) = -cos(x) = cos(x + 2\cdot \dfrac{\pi}{2}), \ f'(0)=-1$$
-$$f'''(x) = sin(x) = cos(x + 3\cdot \dfrac{\pi}{2}), \ f'(0) = 0$$
+$$f''(x) = -cos(x) = cos(x + 2\cdot \dfrac{\pi}{2}), \ f''(0)=-1$$
+$$f'''(x) = sin(x) = cos(x + 3\cdot \dfrac{\pi}{2}), \ f'''(0) = 0$$
 $$\dots$$
 $$f^{(2n)}(x) = (-1)^{n}\cdot cos(x), \ f^{(2n)}(0) = (-1)^{n}$$
 $$f^{(2n + 1)}(x) = (-1)^{n+1}\cdot sin(x), \ f^{(2n + 1)}(0) = 0$$
@@ -1829,7 +1829,7 @@ $$f^{(2n + 1)}(x) = (-1)^{n+1}\cdot sin(x), \ f^{(2n + 1)}(0) = 0$$
 <!-- ?\newpage -->
 ### 41. *Формула Маклорена для функции $y = ln(1 + x)$ с остаточным членом в форме Лагранжа*
 
-Найдем производные функции $y = ln(1+x)$ до $n$-го порядка:
+Найдем производные функции $y = ln(1+x)$ до $(n+1)$-го порядка:
 
 $$f(0) = 0$$
 $$f'(x) = \dfrac{1}{1+x}, \ f'(0) = 1$$
@@ -1964,7 +1964,7 @@ $f(x)$ имеет строгий локальный минимум, а если 
 и $f(x_0) < f(x)$ для всех $x \in (x_0, x_0 + \delta)$. Мы видим, что $x_0$ и в самом деле есть
 точка строгого локального минимума. Аналогично доказывается и второе утверждение
 теоремы. В случае последнего утверждения функция $f(x)$ либо возрастает, либо убывает
-на интервале $(x0 - \delta, x0 + \delta)$ в зависимости от знака производной $f'(x)$; экстремума в
+на интервале $(x_0 - \delta, x_0 + \delta)$ в зависимости от знака производной $f'(x)$; экстремума в
 точке $x_0$ в обоих случаях нет. 
 
 Теорема доказана.
@@ -2022,7 +2022,7 @@ $$
 
 Докажем лишь первое утверждение теоремы (второе доказывается аналогично). Рассмотрим касательную к графику функции $y = f(x)$ в
 точке $(x_0, f(x_0))$, $x_0 \in (a, b)$. Уравнение такой касательной имеет вид $y = f(x_0) + f'(x_0)(x - x_0)$. Пусть для определенности $x_0 < x < b$. Тогда разность ординат точки касательной $\big(x, f(x_0) + f'(x_0)(x - x_0)\big)$ и точки графика $\big(x, f(x)\big)$ равна $\Delta y = f(x_0) - f(x) + f'(x_0)(x - x_0).$ По теореме Лагранжа
-$f(x) - f(x_0) = f'(c)(x - x0).$ Поэтому $\Delta y = \big(f'(x_0) - f'(c)\big)\cdot(x - x_0), \ c \in (x_0, x).$
+$f(x) - f(x_0) = f'(c)(x - x_0).$ Поэтому $\Delta y = \big(f'(x_0) - f'(c)\big)\cdot(x - x_0), \ c \in (x_0, x).$
 Применим еще раз теорему Лагранжа: $\Delta y = -f''(c_1)(c - x_0)(x - x_0),\ c_1 \in (x_0, c).$ Здесь $f''(c_1) > 0,\ c - x_0 > 0, \ x - x_0 > 0$, поэтому $\Delta y < 0$, и точка касательной лежит ниже соответствующей точки графика функции. Аналогично можно доказать это утверждение
 и в случае $a < x < x_0$. Таким образом, точки касательной лежат ниже соответствующих
 точек графика функции, и функция $f(x)$ выпукла вниз на интервале $(a, b)$. Теорема
