@@ -551,7 +551,7 @@ $CA$ — перпендикуляр к этой оси, $C$ — точка пе�
 
 ![120](img/sinx.png)
 
-$$S_{\triangle OAB} < S_{\sector OAB} < S_{\triangle OAC}$$
+$$S_{\triangle OAB} < S_{\text{сектор } OAB} < S_{\triangle OAC}$$
 $$\dfrac{1}{2}R^2sin(x) <\dfrac{1}{2}R^2x < \dfrac{1}{2}R^2tg(x)$$
 $$sin(x) < x < tg(x)$$
 $$1 < \dfrac{x}{sin(x)} < \dfrac{1}{cos(x)}$$
