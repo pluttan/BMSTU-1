@@ -1352,7 +1352,7 @@ $$
 
 2. Пусть $y = f(u),$ где $u = g(x)$ - некоторая функция, имеющая производную. Тогда
     
-    $$dy = y'_x\cdot du = y'_u\cdot \underbrace{u'_x \cdot dx}_{du} = y'_u\cdot du = f'(u) \cdot du.
+    $$dy = y'_x\cdot dx = y'_u\cdot \underbrace{u'_x \cdot dx}_{du} = y'_u\cdot du = f'(u) \cdot du.
     $$
 
 Теорема доказана.
