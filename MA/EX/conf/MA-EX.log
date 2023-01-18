@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.12.28)  5 JAN 2023 19:37
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.12.28)  10 JAN 2023 22:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1033,7 +1033,7 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             Roman/BI/OT:language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-Package hyperref Info: Option `colorlinks' set `false' on input line 71.
+Package hyperref Info: Option `colorlinks' set `false' on input line 73.
 )
 
 LaTeX Warning: Unused global option(s):
@@ -1381,10 +1381,10 @@ Package rerunfilecheck Info: File `MA-EX.out' has not changed.
 (rerunfilecheck)             Checksum: D5D2C73BC6D6B09E9CAFFED43A58ADA0;26312.
  ) 
 Here is how much of TeX's memory you used:
- 33811 strings out of 476191
- 704905 string characters out of 5812071
- 1145706 words of memory out of 5000000
- 53913 multiletter control sequences out of 15000+600000
+ 33813 strings out of 476191
+ 704918 string characters out of 5812071
+ 1145757 words of memory out of 5000000
+ 53915 multiletter control sequences out of 15000+600000
  481032 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,16n,111p,1104b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
