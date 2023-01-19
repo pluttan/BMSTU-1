@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.12.28)  18 JAN 2023 18:01
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.12.28)  19 JAN 2023 21:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1406,20 +1406,23 @@ File: ../img/24kas.jpg Graphic file (type bmp)
  [40]
 File: ../img/24kas.jpg Graphic file (type bmp)
 <../img/24kas.jpg>
- [41] (./NG-EX.aux)
+ [41]
+File: ../img/huinakakauato.jpg Graphic file (type bmp)
+<../img/huinakakauato.jpg>
+ [42] (./NG-EX.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `NG-EX.out' has not changed.
-(rerunfilecheck)             Checksum: C406530510B4A974C2E441BFE4A9EDB4;32089.
+(rerunfilecheck)             Checksum: F18E74401C023EEE3E9F294FEE9C86F0;33247.
  ) 
 Here is how much of TeX's memory you used:
- 34272 strings out of 476191
- 715290 string characters out of 5812071
- 1152772 words of memory out of 5000000
- 54301 multiletter control sequences out of 15000+600000
+ 34283 strings out of 476191
+ 715555 string characters out of 5812071
+ 1153971 words of memory out of 5000000
+ 54311 multiletter control sequences out of 15000+600000
  483326 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,15n,111p,1378b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on NG-EX.pdf (41 pages).
+Output written on NG-EX.pdf (42 pages).

@@ -1,17 +1,17 @@
 
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.734 ...alpha$ (0\textdegree < $\alpha$ \leqslant
-                                                   90\textdegree) 
+! Unable to load picture or PDF file '../../img/huinakakauato.jpg'.
+<to be read again> 
+                   }
+l.873 \image{../img/huinakakauato.jpg}{180}
+                                            
 Here is how much of TeX's memory you used:
- 34169 strings out of 476191
- 713174 string characters out of 5812071
- 1141139 words of memory out of 5000000
- 54212 multiletter control sequences out of 15000+600000
+ 34342 strings out of 476191
+ 717170 string characters out of 5812071
+ 1145269 words of memory out of 5000000
+ 54351 multiletter control sequences out of 15000+600000
  483326 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 115i,14n,111p,1212b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,14n,111p,1378b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on NG-EX.pdf (31 pages).
+Output written on NG-EX.pdf (39 pages).

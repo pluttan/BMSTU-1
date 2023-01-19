@@ -51,3 +51,6 @@
 \contentsline {subsection}{23. \textit {Теорема Монжа. Привести пример}}{39}{section*.51}%
 \contentsline {subsection}{24. \textit {Какую плоскость называют касательной к поверхности в данной точке?}}{40}{section*.52}%
 \contentsline {subsection}{25. \textit {Что называется нормалью к поверхности в данной точке?}}{41}{section*.53}%
+\contentsline {section}{\textbf {Новые вопросы}}{42}{section*.54}%
+\contentsline {subsection}{1. \textit {Какие фигуры могут занимать проецирующее положение?}}{42}{section*.55}%
+\contentsline {subsection}{2. \textit {По какой линии пересекаются соосные поверхности вращения?}}{42}{section*.56}%
