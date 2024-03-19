@@ -1,0 +1,147 @@
+object Form1: TForm1
+  Left = 910
+  Height = 330
+  Top = 272
+  Width = 170
+  BorderStyle = bsDialog
+  Caption = 'Калькулятор'
+  ClientHeight = 330
+  ClientWidth = 170
+  Color = clLime
+  LCLVersion = '1.6.0.4'
+  object eRes: TEdit
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 5
+    Height = 50
+    Top = 5
+    Width = 160
+    Align = alCustom
+    Anchors = [akTop, akLeft, akRight]
+    AutoSize = False
+    BorderSpacing.Around = 5
+    Font.Height = 45
+    ParentBidiMode = False
+    ParentFont = False
+    TabOrder = 0
+    Text = '0'
+  end
+  object btnC: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = eRes
+    AnchorSideTop.Side = asrBottom
+    Left = 5
+    Height = 75
+    Top = 60
+    Width = 75
+    BorderSpacing.Around = 5
+    Caption = 'С'
+    Color = clHighlight
+    Font.Height = 40
+    OnClick = btnCClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btnPrepare: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = btnC
+    AnchorSideTop.Side = asrBottom
+    Left = 5
+    Height = 75
+    Top = 140
+    Width = 75
+    BorderSpacing.Around = 5
+    Caption = '='
+    Font.Height = 40
+    OnClick = btnPrepareClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object btnPlus: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = btnPrepare
+    AnchorSideTop.Side = asrBottom
+    Left = 5
+    Height = 75
+    Top = 220
+    Width = 75
+    BorderSpacing.Around = 5
+    Caption = '+'
+    Font.Height = 40
+    OnClick = operators
+    ParentFont = False
+    TabOrder = 3
+  end
+  object btnMinus: TButton
+    AnchorSideTop.Control = btnDivision
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 90
+    Height = 75
+    Top = 220
+    Width = 75
+    Anchors = [akTop, akRight]
+    BorderSpacing.Around = 5
+    Caption = '-'
+    Font.Height = 40
+    OnClick = operators
+    ParentFont = False
+    TabOrder = 4
+  end
+  object btnMultiplecate: TButton
+    AnchorSideTop.Control = eRes
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 90
+    Height = 75
+    Top = 60
+    Width = 75
+    Anchors = [akTop, akRight]
+    BorderSpacing.Around = 5
+    Caption = 'x'
+    Font.Height = 40
+    OnClick = operators
+    ParentFont = False
+    TabOrder = 5
+  end
+  object btnDivision: TButton
+    AnchorSideTop.Control = btnMultiplecate
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 90
+    Height = 75
+    Top = 140
+    Width = 75
+    Anchors = [akTop, akRight]
+    BorderSpacing.Around = 5
+    Caption = '/'
+    Font.Height = 40
+    OnClick = operators
+    ParentFont = False
+    TabOrder = 6
+  end
+  object btnExit: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 5
+    Height = 25
+    Top = 300
+    Width = 160
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Around = 5
+    Caption = 'Выход'
+    Color = clRed
+    Font.Height = 20
+    OnClick = btnExitClick
+    ParentFont = False
+    TabOrder = 7
+  end
+end

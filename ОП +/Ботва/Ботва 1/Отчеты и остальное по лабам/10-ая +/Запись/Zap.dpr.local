@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018.12.18 16:44:40.671.pas,C:\Documents and Settings\user\Мои документы\Borland Studio Projects\Unit1.pas=C:\Documents and Settings\user\Рабочий стол\laba10\Запись\chooseinit.pas</Transaction>
+    <Transaction>2018.12.18 16:44:40.671.dfm,C:\Documents and Settings\user\Мои документы\Borland Studio Projects\Unit1.dfm=C:\Documents and Settings\user\Рабочий стол\laba10\Запись\chooseinit.dfm</Transaction>
+    <Transaction>2018.12.18 16:56:35.500.pas,C:\Documents and Settings\user\Мои документы\Borland Studio Projects\Unit2.pas=C:\Documents and Settings\user\Рабочий стол\laba10\Запись\inputUnit.pas</Transaction>
+    <Transaction>2018.12.18 16:56:35.500.dfm,C:\Documents and Settings\user\Мои документы\Borland Studio Projects\Unit2.dfm=C:\Documents and Settings\user\Рабочий стол\laba10\Запись\inputUnit.dfm</Transaction>
+    <Transaction>2018.12.18 16:56:59.812.pas,C:\Documents and Settings\user\Мои документы\Borland Studio Projects\Unit3.pas=C:\Documents and Settings\user\Рабочий стол\laba10\Запись\lookingunit.pas</Transaction>
+    <Transaction>2018.12.18 16:56:59.812.dfm,C:\Documents and Settings\user\Мои документы\Borland Studio Projects\Unit3.dfm=C:\Documents and Settings\user\Рабочий стол\laba10\Запись\lookingunit.dfm</Transaction>
+    <Transaction>2018.12.18 16:59:40.093.bdsproj,C:\Documents and Settings\user\Мои документы\Borland Studio Projects\Project3.bdsproj=C:\Documents and Settings\user\Рабочий стол\laba10\Запись\Zap.dpr</Transaction>
+    <Transaction>2018.12.18 17:24:58.828.dpr,C:\Documents and Settings\user\Рабочий стол\laba10\Запись\Zap.dpr=C:\Documents and Settings\user\Рабочий стол\laba10\Запись\Zap.dpr</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,60 @@
+object F_main: TF_main
+  Left = 682
+  Height = 192
+  Top = 229
+  Width = 320
+  BorderStyle = bsDialog
+  Caption = 'Записная книжка'
+  ClientHeight = 192
+  ClientWidth = 320
+  Color = clSkyBlue
+  LCLVersion = '1.6.0.4'
+  object add_new_button: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Side = asrBottom
+    AnchorSideBottom.Control = search_button
+    Left = 10
+    Height = 40
+    Top = 31
+    Width = 300
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.Around = 5
+    Caption = 'Ввод/Добавление записей'
+    Font.Height = 25
+    OnClick = open_to_add
+    ParentFont = False
+    TabOrder = 0
+  end
+  object search_button: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Control = Owner
+    AnchorSideTop.Side = asrCenter
+    Left = 10
+    Height = 40
+    Top = 76
+    Width = 300
+    Caption = 'Поиск по фамилии'
+    Font.Height = 25
+    OnClick = open_to_search
+    ParentFont = False
+    TabOrder = 1
+  end
+  object close_form_button: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Control = search_button
+    AnchorSideTop.Side = asrBottom
+    Left = 10
+    Height = 40
+    Top = 121
+    Width = 300
+    BorderSpacing.Around = 5
+    Caption = 'Завершение работы'
+    Font.Height = 25
+    OnClick = close_form
+    ParentFont = False
+    TabOrder = 2
+  end
+end

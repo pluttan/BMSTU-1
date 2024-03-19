@@ -1,0 +1,57 @@
+program Project1;
+
+{$APPTYPE CONSOLE}
+
+uses
+ SysUtils;
+
+var
+ b: array of integer;
+ a,c: array  of array of integer;
+ n,m,i,j:integer;
+begin
+ randomize;
+ readln(n, m);
+ setlength(b, m);
+ setlength(a, n, m);
+ for i := 0 to n-1 do
+  begin
+   for j := 0 to m-1 do
+    begin
+     a[i,j]:=random(100)-20;
+     write(a[i,j]:4, ' ');
+    end;
+   writeln;
+  end;
+
+ for i := 0 to n-1 do
+  begin
+   for j := 0 to m-1 do
+    begin
+     if a[i,j] > 20 then
+       b[j]:=b[j]+1;
+    end;
+  end;
+
+ for i := 0 to n-1 do
+  begin
+   for j := 0 to m-1 do
+    begin
+     if b[j]>0 then
+      a[i,j]:=a[i,j+1];
+    end;
+  end;
+
+ writeln;
+
+  for i := 0 to n-1 do
+   begin
+    for j := 0 to m-1 do
+     begin
+      write(a[i,j]:4, ' ');
+     end;
+    writeln;
+   end;
+
+ readln; 
+end.

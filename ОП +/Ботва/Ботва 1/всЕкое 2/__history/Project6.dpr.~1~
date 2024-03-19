@@ -1,0 +1,52 @@
+program Project6;
+{$APPTYPE CONSOLE}
+
+uses
+  SysUtils;
+
+Type
+ pakk = ^akk;
+ akk = record
+  name:string;
+  pol:string;
+  age:integer;
+  next:pakk;
+ end;
+
+var
+ sr:single;
+ d,i:integer;
+ a,b:pakk;
+begin
+ randomize;
+ a:=nil; b:=nil;
+ new(a);
+ b := a;
+ for i := 1 to 100 do
+  begin
+   b^.name:='hal';
+   d:=random(1);
+   if d = 1 then
+    b^.pol:='male'
+   else
+    b^.pol:='female';
+   b^.age:=random(50)+1;
+   new(b^.next);
+   b:= b^.next;
+  end;
+ b^.name:='hal';
+ d:=random(1);
+ if d = 1 then
+  b^.pol:='male'
+ else
+  b^.pol:='female';
+ b^.age:=random(50)+1;
+ b^.next := nil;
+ b:=a;
+ while b <> nil do
+  begin
+   writeln(b^.age, ' ',b^.pol);
+   b:=b^.next;
+  end;
+ readln;
+end.

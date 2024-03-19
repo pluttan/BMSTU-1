@@ -1,0 +1,169 @@
+object F_add_new: TF_add_new
+  Left = 1039
+  Height = 262
+  Top = 143
+  Width = 373
+  BorderStyle = bsDialog
+  Caption = 'Запись данных'
+  ClientHeight = 262
+  ClientWidth = 373
+  Color = clSkyBlue
+  LCLVersion = '1.6.0.4'
+  object edit_surname: TEdit
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 118
+    Height = 30
+    Top = 15
+    Width = 250
+    Anchors = [akTop, akRight]
+    AutoSize = False
+    BorderSpacing.Top = 10
+    BorderSpacing.Around = 5
+    Font.Height = 25
+    MaxLength = 22
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Edit_name: TEdit
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 118
+    Height = 30
+    Top = 50
+    Width = 250
+    Anchors = [akTop, akRight]
+    AutoSize = False
+    BorderSpacing.Around = 5
+    Font.Height = 25
+    MaxLength = 22
+    ParentFont = False
+    TabOrder = 4
+  end
+  object edit_phone: TEdit
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 118
+    Height = 30
+    Top = 85
+    Width = 250
+    Anchors = [akTop, akRight]
+    AutoSize = False
+    BorderSpacing.Around = 5
+    Font.Height = 25
+    MaxLength = 22
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 3
+  end
+  object edit_address: TEdit
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 118
+    Height = 30
+    Top = 120
+    Width = 250
+    Anchors = [akTop, akRight]
+    AutoSize = False
+    BorderSpacing.Around = 5
+    Font.Height = 25
+    MaxLength = 22
+    ParentFont = False
+    TabOrder = 2
+  end
+  object record_button: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideBottom.Control = close_form_button
+    Left = 141
+    Height = 40
+    Top = 172
+    Width = 90
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.Around = 5
+    Caption = 'Записать'
+    Font.Height = 25
+    OnClick = record_buttonClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object close_form_button: TButton
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrCenter
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 141
+    Height = 40
+    Top = 217
+    Width = 90
+    Anchors = [akRight, akBottom]
+    BorderSpacing.Around = 5
+    Caption = 'Конец'
+    Font.Height = 25
+    OnClick = close_form_buttonClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object LAddress: TLabel
+    AnchorSideTop.Control = edit_address
+    AnchorSideRight.Control = edit_address
+    Left = 50
+    Height = 30
+    Top = 120
+    Width = 58
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 10
+    Caption = 'Адрес'
+    Font.Height = 30
+    ParentColor = False
+    ParentFont = False
+  end
+  object LPhone: TLabel
+    AnchorSideTop.Control = edit_phone
+    AnchorSideRight.Control = edit_phone
+    Left = 26
+    Height = 30
+    Top = 85
+    Width = 82
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 10
+    Caption = 'Телефон'
+    Font.Height = 30
+    ParentColor = False
+    ParentFont = False
+  end
+  object LName: TLabel
+    AnchorSideTop.Control = Edit_name
+    AnchorSideRight.Control = Edit_name
+    Left = 66
+    Height = 30
+    Top = 50
+    Width = 42
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 10
+    Caption = 'Имя'
+    Font.Height = 30
+    ParentColor = False
+    ParentFont = False
+  end
+  object LSurname: TLabel
+    AnchorSideTop.Control = edit_surname
+    AnchorSideRight.Control = edit_surname
+    Left = 21
+    Height = 30
+    Top = 15
+    Width = 87
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 10
+    Caption = 'Фамилия'
+    Font.Height = 30
+    ParentColor = False
+    ParentFont = False
+  end
+end

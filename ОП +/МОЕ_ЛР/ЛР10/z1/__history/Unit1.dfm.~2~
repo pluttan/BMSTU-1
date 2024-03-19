@@ -1,0 +1,14 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = #1050#1072#1083#1100#1082#1091#1083#1103#1090#1086#1088
+  ClientHeight = 654
+  ClientWidth = 917
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+end
